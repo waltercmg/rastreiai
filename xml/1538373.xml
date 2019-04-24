@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<soapenv:Envelope
+	xmlns:com.ibm.team.repository.common.services="http:///com/ibm/team/core/services.ecore"
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:workitem.restDTO="com.ibm.team.workitem.rest.dto"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<response>
+			<method>getWorkItemDTO2</method>
+			<interface>com.ibm.team.workitem.common.internal.rest.IWorkItemRestService</interface>
+			<returnValue xsi:type="com.ibm.team.repository.common.services:ComplexDataArg">
+				<type>COMPLEX</type>
+				<value xsi:type="workitem.restDTO:WorkItemDTO">
+					<itemId>_PpXMsVh2EeiwU9cJBygvRg</itemId>
+					<stateId>_dmyBEXCkEeiWTsEsDorrSQ</stateId>
+					<locationUri>https://alm.serpro/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/1538373</locationUri>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Assunto&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>ME - Imóvel 931 101 000 892-0 (GO), em nome do INCRA não está com CCIR isento&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Descrição&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Informamos que o imóvel 931 101 000 892-0 (GO), estava em nome do INCRA/SR-28-DF, no legado, até março/2015.&lt;br />Após a migração, retornou para o nome do antigo proprietário em 1999.&lt;br />Foi atualizado novamente em nome do INCRA em 09/05/2018. Porém, ao emitir o CCIR está vindo com cobrança, não saindo como isento. Favor verificar o ocorrido.&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tipo&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Solicitação de Serviço&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Área do Projeto&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Negócio (Solicitação de Serviço)&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Área de Equipe&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNES&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Walter de Carvalho Mattos Galvao&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Prioridade&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Urgente&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_PpXMsVh2EeiwU9cJBygvRg?path=internalComments[1]&quot;>#1&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Seguindo orientação da Milena &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/03962740481&quot;>@03962740481&lt;/a> realmente o processo foi realizado em duas etapas, uma para isentar os lançamentos anteriores dos imóveis INCRA e outra para que os novos lançamentos dos imóveis INCRA dali em diante fossem lançados como isento. No momento em que foi feita essa isenção para o passado o imóvel em questão não estava como sendo do INCRA e por esse motivo não poderia ser contemplado. Diante de todo o exposto pelo cliente entendemos que no momento do processamento será necessário isentar todos os lançamentos anteriores para contemplar a situação citada. Dessa forma, nós sugerimos uma AESP para esse imóvel em especial e uma Manutenção Evolutiva para modificação do sistema para novos casos.&lt;br />&lt;br />Esta SS foi solucitada na &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/1535413&quot;>Solicitação de Serviço 1535413&lt;/a>&lt;/td>&lt;/tr>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Neurani Souza Lima&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Regina Celia Miranda&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Anderson da Silva Pinto&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Antonio Carlos Sacramento&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Sergio Henrique Cunha Zica&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Milena Rodrigues Pinheiro de Souza&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Maurus Otavio Fonseca Santos&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Jose Clodoaldo Jatoba Silva Junior&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Davi Augusto Gadelha Silva&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Carlyle Ramos de Oliveira Vilarinho&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Acesso Restrito&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNES&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>1538373&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Criado Por&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Carlyle Ramos de Oliveira Vilarinho&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Calculado - Código de Serviço x Redator SS&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SNCR/WEB-SNCR/WEB-38052;_RSbkUFuKEeaZDY78X2i8Kw&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Entrega Prevista&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2018-05-29T15:00:00.000Z-->May 29, 2018, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Orgão de Origem&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>INCRA&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Esforço Previsto (HD)&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>0&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DIDES/SUPDE/DERCE/DE404&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg Destinatario&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>152430&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Número Demanda UG&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNES&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Mnemônico do Serviço&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SNCR/WEB&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Carlyle Ramos de Oliveira Vilarinho&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID Usuário Corrente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>_RSbkUFuKEeaZDY78X2i8Kw&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tipo Cliente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Externo&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>_RSbkUFuKEeaZDY78X2i8Kw&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>152868&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Solicitante Externo&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Jose Aloisio de Souza&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação do Solicitante Externo&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DIRCL/SUNES/ESPPE&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação do Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DIRCL/SUNES/ESPPE&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Criação&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2018-05-15T19:47:17.371Z-->May 15, 2018, 4:47 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Ano da demanda&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>2018&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Redator Anterior&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>_RSbkUFuKEeaZDY78X2i8Kw&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Número da Demanda&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>112751&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tipo da Demanda&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Manutenção Evolutiva&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>UG&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DIRCL&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data da Solicitação do Cliente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2018-05-10T15:00:00.000Z-->May 10, 2018, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UG&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>152801&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Código de Serviço&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SNCR/WEB-SNCR/WEB-38052&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Origem da Demanda&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Demandas&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Numero Demanda WS&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>NAOVALIDO&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Número do Serviço&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>38052&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2018-05-15T19:47:17.438Z-->May 15, 2018, 4:47 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>CPF Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Falha ao recuperar CPF&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-05-15T19:47:17.439Z</modifiedDate>
+						<modifiedBy>
+							<id>_RSbkUFuKEeaZDY78X2i8Kw</id>
+							<itemId>_RSbkUFuKEeaZDY78X2i8Kw</itemId>
+							<userId>26272229615</userId>
+							<name>Carlyle Ramos de Oliveira Vilarinho</name>
+							<label>Carlyle Ramos de Oliveira Vilarinho</label>
+							<emailAddress>carlyle.vilarinho@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_RSbkUFuKEeaZDY78X2i8Kw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_RSbkUFuKEeaZDY78X2i8Kw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/26272229615</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_PpXMsVh2EeiwU9cJBygvRg?path=internalComments[2]&quot;>#2&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Carlyle &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/26272229615&quot;>@26272229615&lt;/a>, foi levantada internamente uma questão interessante, numa situação hipotética de que esse imóvel está no meio de uma ação judicial com opção de recurso, caso os lançamentos sejam colocados para isentos e o imóvel daqui a alguns meses volte para o antigo proprietário, esses lançamentos deveriam permanecer como isentos?&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-05-16T14:43:16.864Z</modifiedDate>
+						<modifiedBy>
+							<id>_gIsBsJNwEeK64KGHgF3qkA</id>
+							<itemId>_gIsBsJNwEeK64KGHgF3qkA</itemId>
+							<userId>03962740481</userId>
+							<name>Milena Rodrigues Pinheiro de Souza</name>
+							<label>Milena Rodrigues Pinheiro de Souza</label>
+							<emailAddress>milena.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_gIsBsJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_gIsBsJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/03962740481</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Ordem de Atendimento&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>0&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;137&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-05-16T18:49:27.917Z</modifiedDate>
+						<modifiedBy>
+							<id>_RSbkUFuKEeaZDY78X2i8Kw</id>
+							<itemId>_RSbkUFuKEeaZDY78X2i8Kw</itemId>
+							<userId>26272229615</userId>
+							<name>Carlyle Ramos de Oliveira Vilarinho</name>
+							<label>Carlyle Ramos de Oliveira Vilarinho</label>
+							<emailAddress>carlyle.vilarinho@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_RSbkUFuKEeaZDY78X2i8Kw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_RSbkUFuKEeaZDY78X2i8Kw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/26272229615</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_PpXMsVh2EeiwU9cJBygvRg?path=internalComments[3]&quot;>#3&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Milena &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/03962740481&quot;>@03962740481&lt;/a> veja a resposta do cliente:&lt;br />&lt;br />&amp;quot;Realmente por uma falha, ou definição errada no SNCR, este imóvel no momento da AESP que isentou os&lt;br />imóveis não estava em nome do INCRA, apesar de ser do INCRA ha algum tempo, e isto pode ocorrer com&lt;br />outros imóveis.&lt;br />&lt;br />O que importa é que foi feito uma atualização para corrigir erro/falha na migração, onde retornou o&lt;br />imóvel para o proprietário anterior, e temos que ISENTAR o mesmo da melhor forma possível, ou&lt;br />reexecutando a AESP ou outra forma e com o menor custo, lembrando que podem ocorrer outros&lt;br />casos.&amp;quot;&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-05-16T20:15:02.529Z</modifiedDate>
+						<modifiedBy>
+							<id>_RSbkUFuKEeaZDY78X2i8Kw</id>
+							<itemId>_RSbkUFuKEeaZDY78X2i8Kw</itemId>
+							<userId>26272229615</userId>
+							<name>Carlyle Ramos de Oliveira Vilarinho</name>
+							<label>Carlyle Ramos de Oliveira Vilarinho</label>
+							<emailAddress>carlyle.vilarinho@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_RSbkUFuKEeaZDY78X2i8Kw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_RSbkUFuKEeaZDY78X2i8Kw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/26272229615</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Contrato&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>&amp;lt;Unassigned&amp;gt;&lt;/del>&lt;ins>INCRA-59932&lt;/ins>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-06-12T14:38:55.725Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_PpXMsVh2EeiwU9cJBygvRg?path=internalComments[4]&quot;>#4&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Milena@03962740481 Disse o Cliente, &amp;quot;Recebemos nova reclamação de que o imóvel 414 123 019 062-0, em nome do INCRA/MG, não está saindo&lt;br />como isento. &lt;br />Solicitamos agilização da solução, tendo em vista que este problema está travando várias ações das&lt;br />SR. &amp;quot;&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-06-14T17:40:27.594Z</modifiedDate>
+						<modifiedBy>
+							<id>_RSbkUFuKEeaZDY78X2i8Kw</id>
+							<itemId>_RSbkUFuKEeaZDY78X2i8Kw</itemId>
+							<userId>26272229615</userId>
+							<name>Carlyle Ramos de Oliveira Vilarinho</name>
+							<label>Carlyle Ramos de Oliveira Vilarinho</label>
+							<emailAddress>carlyle.vilarinho@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_RSbkUFuKEeaZDY78X2i8Kw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_RSbkUFuKEeaZDY78X2i8Kw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/26272229615</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_PpXMsVh2EeiwU9cJBygvRg?path=internalComments[5]&quot;>#5&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Milena@03962740481 outra observação do Cliente:&lt;br />&lt;br />&amp;quot;Informamos nova situação para ser analisada.&lt;br />O imóvel de PA&amp;nbsp; do INCRA, 501 018 014 273-1,&lt;br />está isento (correto). Foi feito uma inclusão por desmembramento deste imóvel, 951 030 564 346-8,&lt;br />em nome do parceleiro, Josemar Negris, CPF 101 494 187-36. Ao emitir o CCIR desta parcela, está&lt;br />saindo como isento (está correto ?).&lt;br />No imóvel 414 123 019 062-0, em nome do INCRA, ao emitir CCR não&amp;nbsp; está isento.&lt;br />Na inclusão do imóvel 951 030 400 335-0 (em nome do INCRA), por desmembramento do PA do INCRA 414&lt;br />123 019 062-0, deveria sair como isento. Ao emitir o CCIR está com cobrança.&lt;br />Favor analisar as duas situações.&amp;quot;&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-06-14T20:15:41.961Z</modifiedDate>
+						<modifiedBy>
+							<id>_RSbkUFuKEeaZDY78X2i8Kw</id>
+							<itemId>_RSbkUFuKEeaZDY78X2i8Kw</itemId>
+							<userId>26272229615</userId>
+							<name>Carlyle Ramos de Oliveira Vilarinho</name>
+							<label>Carlyle Ramos de Oliveira Vilarinho</label>
+							<emailAddress>carlyle.vilarinho@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_RSbkUFuKEeaZDY78X2i8Kw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_RSbkUFuKEeaZDY78X2i8Kw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/26272229615</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_PpXMsVh2EeiwU9cJBygvRg?path=internalComments[6]&quot;>#6&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Carlyle &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/26272229615&quot;>@26272229615&lt;/a> para o imóvel 414 123 019 062-0, pede por favor, para o INCRA abrir uma outra demanda para os imóveis que são isentos e que não foram lançados como isentos no massivo de 2017.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-06-15T12:45:12.233Z</modifiedDate>
+						<modifiedBy>
+							<id>_gIsBsJNwEeK64KGHgF3qkA</id>
+							<itemId>_gIsBsJNwEeK64KGHgF3qkA</itemId>
+							<userId>03962740481</userId>
+							<name>Milena Rodrigues Pinheiro de Souza</name>
+							<label>Milena Rodrigues Pinheiro de Souza</label>
+							<emailAddress>milena.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_gIsBsJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_gIsBsJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/03962740481</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_PpXMsVh2EeiwU9cJBygvRg?path=internalComments[7]&quot;>#7&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Carlyle &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/00937325465&quot;>@00937325465&lt;/a> o imóvel 4141230190620 é o mesmo caso do imóvel 4141230190620. Em relação a inclusão do imóvel 951 030 400 335-0, aparentemente no momento da inclusão não foi marcado o indicador de Imóvel INCRA.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-06-15T14:00:29.857Z</modifiedDate>
+						<modifiedBy>
+							<id>_gIsBsJNwEeK64KGHgF3qkA</id>
+							<itemId>_gIsBsJNwEeK64KGHgF3qkA</itemId>
+							<userId>03962740481</userId>
+							<name>Milena Rodrigues Pinheiro de Souza</name>
+							<label>Milena Rodrigues Pinheiro de Souza</label>
+							<emailAddress>milena.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_gIsBsJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_gIsBsJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/03962740481</webUri>
+						</modifiedBy>
+					</changes>
+				</value>
+			</returnValue>
+		</response>
+	</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<soapenv:Envelope
+	xmlns:com.ibm.team.repository.common.services="http:///com/ibm/team/core/services.ecore"
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:workitem.restDTO="com.ibm.team.workitem.rest.dto"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<response>
+			<method>getWorkItemDTO2</method>
+			<interface>com.ibm.team.workitem.common.internal.rest.IWorkItemRestService</interface>
+			<returnValue xsi:type="com.ibm.team.repository.common.services:ComplexDataArg">
+				<type>COMPLEX</type>
+				<value xsi:type="workitem.restDTO:WorkItemDTO">
+					<itemId>_GteF0H7XEeeqc7AoJfJDhQ</itemId>
+					<stateId>_h-fE8AdYEeiIt8tLD3sPXw</stateId>
+					<locationUri>https://alm.serpro/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/1329439</locationUri>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Assunto&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>ME - Integração/reestruturação do SNCR/CNIR (MPV4)&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Descrição&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Desenvolvimento da Integração/reestruturação do SNCR para o CNIR (MPV4).&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tipo&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Solicitação de Serviço&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Área do Projeto&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Negócio (Solicitação de Serviço)&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Área de Equipe&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNMP&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Renan Pinheiro do Egypto Guerra&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Prioridade&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Alta&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_GteF0H7XEeeqc7AoJfJDhQ?path=internalComments[1]&quot;>#1&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Segue registro do cliente:&lt;br />&lt;br />&lt;i>De ordem do Coordenador Geral de Cadastro Rural – Paulo Aparecido Farinha,&lt;br />&lt;br />Informo que ficam sobrestadas as discussões com o objetivo de especificar a integração/reestruturação do SNCR/CNIR, até a definição pelo Incra dos rumos do SNCR, em reunião que ocorrerá no período de 21 a 23/08/2017 em Brasília-DF.&lt;br />&lt;br />Na mencionada reunião, presencial, é indispensável o comparecimento do líder da equipe de desenvolvimento do SERPRO, Senhor Walter Galvão e outra pessoa, tendo em vista a necessidade de esclarecer o real entendimento do SNCR por parte do SERPRO no âmbito do CNIR/SNCR, bem como esboçar a arquitetura do sistema a partir das mais recentes decisões que serão tomadas pela área competente desta Autarquia. &lt;/i>&lt;/td>&lt;/tr>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Antonio Carlos Sacramento&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Carlyle Ramos de Oliveira Vilarinho&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Maria Elizabete Ferreira Rissardi&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Sergio Henrique Cunha Zica&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Acesso Restrito&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNMP&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>1329439&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Criado Por&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Sergio Henrique Cunha Zica&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Calculado - Código de Serviço x Redator SS&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SNCR/WEB-SNCR/WEB-38052;_3cZ4hc1HEeK6vquQQMSx4Q&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Entrega Prevista&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2017-08-11T15:00:00.000Z-->Aug 11, 2017, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Orgão de Origem&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>INCRA&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Esforço Previsto (HD)&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>0&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DIDES/SUPDE/DERCE/DE4ED&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg Destinatario&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>27274&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Número Demanda UG&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNMP&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Mnemônico do Serviço&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SNCR/WEB&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Sergio Henrique Cunha Zica&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID Usuário Corrente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>_3cZ4hc1HEeK6vquQQMSx4Q&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tipo Cliente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Externo&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>_3cZ4hc1HEeK6vquQQMSx4Q&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>150105&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Solicitante Externo&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Jovelino Lotério Ramos&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação do Solicitante Externo&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>INCRA/DFC&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Criação&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2017-08-11T20:59:40.598Z-->Aug 11, 2017, 5:59 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação do Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DIRCL/SUNMP/MPDTP&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Redator Anterior&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>_3cZ4hc1HEeK6vquQQMSx4Q&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Número da Demanda&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>109116&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tipo da Demanda&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Manutenção Evolutiva&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>UG&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DIRCL&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data da Solicitação do Cliente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2017-08-11T15:00:00.000Z-->Aug 11, 2017, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UG&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>5014&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Código de Serviço&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SNCR/WEB-SNCR/WEB-38052&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Origem da Demanda&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Demandas&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Numero Demanda WS&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>NAOVALIDO&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Número do Serviço&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>38052&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2017-08-11T20:59:40.691Z-->Aug 11, 2017, 5:59 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>CPF Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Falha ao recuperar CPF&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-08-11T20:59:40.737Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Entrega Prevista&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2017-08-11T15:00:00.000Z-->Aug 11, 2017, 12:00 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2017-09-15T15:00:00.000Z-->Sep 15, 2017, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Motivo de Replanejamento&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Não Informado&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;URC/CLI - Replanej. Data Expectativa Inicial&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>SS Replanejada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>false&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;true&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-08-11T21:02:24.099Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Aline Goncalves Cabeceira&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>SS Replanejada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>true&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;false&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-08-11T21:06:23.037Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Renan Pinheiro do Egypto Guerra&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Walter de Carvalho Mattos Galvao&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DIDES/SUPDE/DERCE/DE4&lt;del>ED&lt;/del>&lt;ins>D4&lt;/ins>&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg Destinatario&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>27274&lt;/del>&lt;ins>6614&lt;/ins>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-08-14T13:37:19.459Z</modifiedDate>
+						<modifiedBy>
+							<id>_ggF1EZNwEeK64KGHgF3qkA</id>
+							<itemId>_ggF1EZNwEeK64KGHgF3qkA</itemId>
+							<userId>13644939349</userId>
+							<name>Neila Maria Farias Castelo Branco</name>
+							<label>Neila Maria Farias Castelo Branco</label>
+							<emailAddress>neila-maria.farias@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_ggF1EZNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_ggF1EZNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/13644939349</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Maurus Otavio Fonseca Santos&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-08-15T20:56:14.479Z</modifiedDate>
+						<modifiedBy>
+							<id>_MIUkIGnCEeKaxLyewP5LAA</id>
+							<itemId>_MIUkIGnCEeKaxLyewP5LAA</itemId>
+							<userId>10227580478</userId>
+							<name>Maurus Otavio Fonseca Santos</name>
+							<label>Maurus Otavio Fonseca Santos</label>
+							<emailAddress>maurus-otavio.santos@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_MIUkIGnCEeKaxLyewP5LAA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_MIUkIGnCEeKaxLyewP5LAA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/10227580478</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Ordem de Atendimento&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>0&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;-1&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-08-24T19:52:28.525Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Aberta&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Suspensa [Aberta]&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Resolução&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&amp;lt;none&amp;gt;&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;URC/CLI – Pendência de esclarecimento do cliente&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_GteF0H7XEeeqc7AoJfJDhQ?path=internalComments[2]&quot;>#2&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Demanda Suspensa por estar há mais de 10 dias &amp;quot;Em Análise&amp;quot; e por estar aguardando as negociações entre Incra e RFB após as discussões ocorridas em Brasília de 29 a 31/08/17 para retomar o atendimento.&lt;br />SS Suspensa para compatibilizar o estado da Demanda e da SS.&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2017-08-11T20:59:40.691Z-->Aug 11, 2017, 5:59 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2017-09-01T19:34:49.128Z-->Sep 1, 2017, 4:34 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-09-01T19:34:49.129Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-09-01T19:37:25.034Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DIDES/SUPDE/DERCE/DE&lt;del>4D4&lt;/del>&lt;ins>404&lt;/ins>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-09-19T23:02:54.933Z</modifiedDate>
+						<modifiedBy>
+							<id>_MIUkIGnCEeKaxLyewP5LAA</id>
+							<itemId>_MIUkIGnCEeKaxLyewP5LAA</itemId>
+							<userId>10227580478</userId>
+							<name>Maurus Otavio Fonseca Santos</name>
+							<label>Maurus Otavio Fonseca Santos</label>
+							<emailAddress>maurus-otavio.santos@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_MIUkIGnCEeKaxLyewP5LAA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_MIUkIGnCEeKaxLyewP5LAA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/10227580478</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg Destinatario&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>6614&lt;/del>&lt;ins>152430&lt;/ins>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-02-01T14:02:25.343Z</modifiedDate>
+						<modifiedBy>
+							<id>_Q7Mem7r9EeGp6N0e8LayaA</id>
+							<itemId>_Q7Mem7r9EeGp6N0e8LayaA</itemId>
+							<userId>31006437800</userId>
+							<name>Vitor Rodrigo Rosan</name>
+							<label>Vitor Rodrigo Rosan</label>
+							<emailAddress>vitor.rosan@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_Q7Mem7r9EeGp6N0e8LayaA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_Q7Mem7r9EeGp6N0e8LayaA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/31006437800</webUri>
+						</modifiedBy>
+					</changes>
+				</value>
+			</returnValue>
+		</response>
+	</soapenv:Body>
+</soapenv:Envelope>

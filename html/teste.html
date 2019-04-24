@@ -1,0 +1,201 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
+<canvas id="myChart" width="400" ></canvas>
+
+<script>
+var canvas = document.getElementById('myChart');
+
+var dado1 =
+{label: '1447810',          
+          data: [
+{
+                x: new Date("2018-01-23"),
+                y: 5 
+              },
+
+{
+                x: new Date("2018-01-25"),
+                y: 1 
+              },
+
+{
+                x: new Date("2018-01-30"),
+                y: -1 
+              },
+
+{
+                x: new Date("2018-03-02"),
+                y: 2 
+              },
+
+{
+                x: new Date("2018-03-12"),
+                y: -1 
+              },
+
+{
+                x: new Date("2018-03-20"),
+                y: 3 
+              },
+
+{
+                x: new Date("2018-03-22"),
+                y: 5 
+              },
+
+{
+                x: new Date("2018-05-22"),
+                y: 6 
+              },
+
+{
+                x: new Date("2018-05-28"),
+                y: 7 
+              },
+
+{
+                x: new Date("2018-06-07"),
+                y: 11 
+              },
+             
+          ],
+          borderColor: [
+          'rgb(237,90,180)'
+          ],
+          steppedLine: true,
+          fill: false,
+          borderWidth: 2};
+
+
+var dado2 = {label: '1546026',          
+          data: [
+{
+                x: new Date("2018-05-28"),
+                y: 5 
+              },
+
+{
+                x: new Date("2018-06-08"),
+                y: 6 
+              },
+
+{
+                x: new Date("2018-06-11"),
+                y: 7 
+              },
+
+{
+                x: new Date("2018-06-12"),
+                y: 8 
+              },
+             
+          ],
+          borderColor: [
+          'rgb(48,184,232)'
+          ],
+          steppedLine: true,
+          fill: false,
+          borderWidth: 2};
+
+var dado3 = {label: '1483210',          
+          data: [
+{
+                x: new Date("2018-03-28"),
+                y: 5 
+              },
+
+{
+                x: new Date("2018-04-04"),
+                y: 3 
+              },
+
+{
+                x: new Date("2018-04-06"),
+                y: 4 
+              },
+
+{
+                x: new Date("2018-05-14"),
+                y: -1 
+              },
+
+{
+                x: new Date("2018-05-15"),
+                y: 4 
+              },
+
+{
+                x: new Date("2018-05-22"),
+                y: 5 
+              },
+             
+          ],
+          borderColor: [
+          'rgb(215,78,135)'
+          ],
+          steppedLine: true,
+          fill: false,
+          borderWidth: 2};
+
+
+var data = {
+    labels: [],
+    datasets: [
+        dado1, dado2
+    ]
+};
+
+
+function adddata1(){
+	myLineChart.data.datasets[0].data[7] = 60;
+    myLineChart.data.labels[7] = "Newly Added";
+    myLineChart.update();
+}
+
+var option = {
+	showLines: true,
+    scales: {            
+            xAxes: [{
+                type: 'time'}],
+        }
+};
+var myLineChart = Chart.Line(canvas,{
+	data:data,
+  options:option
+});
+
+function adddata2(){
+    //myLineChart.data.labels.push("oi");
+    //myLineChart.data.datasets.forEach((dataset) => {
+    ///    alert('oi');        
+    //    dataset.data.push(dado3);
+    //});
+    //myLineChart.data.labels.push("TESTE");
+	//alert(''+myLineChart.data.datasets.size());
+    myLineChart.datasets.push(dado3);
+    myLineChart.update();
+}
+
+function adddata(){
+    alert("oi");
+    alert("AQUI: "+myLineChart.data.length);
+    myLineChart.data.datasets.forEach((dataset) => {
+        alert(""+dataset.length);
+    });
+    myLineChart.update();
+}
+
+function removeData() {
+    myLineChart.data.labels.pop();
+    myLineChart.data.datasets.forEach((dataset) => {
+        dataset.data.pop();
+    });
+    myLineChart.update();
+}
+
+
+</script>
+
+<input type="button" value="Add Data" onclick="adddata()">
+<input type="button" value="Delete Data" onclick="removeData()">
+
+

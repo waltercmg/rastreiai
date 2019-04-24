@@ -1,0 +1,162 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
+<canvas id="myChart" width="400" ></canvas>
+
+<script>
+var canvas = document.getElementById('myChart');
+
+var dado1 = [
+{
+                x: new Date("2018-01-23"),
+                y: 5 
+              },
+
+{
+                x: new Date("2018-01-25"),
+                y: 1 
+              },
+
+{
+                x: new Date("2018-01-30"),
+                y: -1 
+              },
+
+{
+                x: new Date("2018-03-02"),
+                y: 2 
+              },
+
+{
+                x: new Date("2018-03-12"),
+                y: -1 
+              },
+
+{
+                x: new Date("2018-03-20"),
+                y: 3 
+              },
+
+{
+                x: new Date("2018-03-22"),
+                y: 5 
+              },
+
+{
+                x: new Date("2018-05-22"),
+                y: 6 
+              },
+
+{
+                x: new Date("2018-05-28"),
+                y: 7 
+              },
+
+{
+                x: new Date("2018-06-07"),
+                y: 11 
+              },
+             
+          ];
+
+var label1 = '1447810';
+
+var cor1 = 'rgb(237,90,180)';
+
+
+var dado2 = [
+{
+                x: new Date("2018-05-28"),
+                y: 5 
+              },
+
+{
+                x: new Date("2018-06-08"),
+                y: 6 
+              },
+
+{
+                x: new Date("2018-06-11"),
+                y: 7 
+              },
+
+{
+                x: new Date("2018-06-12"),
+                y: 8 
+              },
+             
+          ];
+
+var label2 = '44444';
+
+var cor2 = 'rgb(100,100,180)';
+
+
+//         {label: label1, data: dado1, borderColor: [cor1],steppedLine: true, fill: false}
+
+var data = {
+    labels: [],
+    datasets: [
+        {label: label1, data: dado1}
+    ]
+};
+
+
+function adddata1(){
+	myLineChart.data.datasets[0].data[7] = 60;
+    myLineChart.data.labels[7] = "Newly Added";
+    myLineChart.update();
+}
+
+var option = {
+	showLines: true,
+    scales: {            
+            xAxes: [{
+                type: 'time'}],
+        }
+};
+var myLineChart = Chart.Line(canvas,{
+	data:data,
+  options:option
+});
+
+function adddata2(){
+    //myLineChart.data.labels.push("oi");
+    //myLineChart.data.datasets.forEach((dataset) => {
+    ///    alert('oi');        
+    //    dataset.data.push(dado3);
+    //});
+    //myLineChart.data.labels.push("TESTE");
+	//alert(''+myLineChart.data.datasets.size());
+    myLineChart.datasets.push(dado3);
+    myLineChart.update();
+}
+
+function adddata() {
+    
+    myLineChart.data.datasets = [{label: label2, data: dado2, borderColor: [cor1],steppedLine: true, fill: false},
+                                  {label: label1, data: dado1, borderColor: [cor1],steppedLine: true, fill: false}]
+    myLineChart.update();
+}
+function adddata4(){
+    alert("oi");
+    alert("AQUI: "+myLineChart.data.length);
+    myLineChart.data.datasets.forEach((dataset) => {
+        alert(""+dataset.length);
+    });
+    myLineChart.update();
+}
+
+function removeData() {
+    myLineChart.data.labels.pop();
+    myLineChart.data.datasets.forEach((dataset) => {
+        dataset.data.pop();
+    });
+    myLineChart.update();
+}
+
+
+</script>
+
+<input type="button" value="Add Data" onclick="adddata()">
+<input type="button" value="Delete Data" onclick="removeData()">
+
+

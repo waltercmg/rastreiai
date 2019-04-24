@@ -1,0 +1,365 @@
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
+<div class="container">
+  <canvas id="myChart"></canvas>
+</div>
+
+<script>
+    var canvas = document.getElementById('myChart');var array_ss = new Object();
+array_ss['1447810'] = {label: '1447810',
+	data: [{x: new Date('2018-01-11'), y: 0 },{x: new Date('2018-01-17'), y: 0 },{x: new Date('2018-01-22'), y: 0 },{x: new Date('2018-01-23'), y: 5 },{x: new Date('2018-01-25'), y: 1 },{x: new Date('2018-01-30'), y: -1 },{x: new Date('2018-03-02'), y: 2 },{x: new Date('2018-03-12'), y: -1 },{x: new Date('2018-03-19'), y: -1 },{x: new Date('2018-03-20'), y: 3 },{x: new Date('2018-03-22'), y: 5 },{x: new Date('2018-05-22'), y: 6 },{x: new Date('2018-05-23'), y: 6 },{x: new Date('2018-05-24'), y: 6 },{x: new Date('2018-05-28'), y: 7 },{x: new Date('2018-06-07'), y: 11 },{x: new Date('2018-06-13'), y: 11 },{x: new Date('2018-06-19'), y: 11 },],
+	borderColor: ['rgb(187,98,30)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black',]};
+array_ss['1275015'] = {label: '1275015',
+	data: [{x: new Date('2017-09-05'), y: -1 },{x: new Date('2017-09-28'), y: 6 },{x: new Date('2017-10-19'), y: 6 },{x: new Date('2017-11-23'), y: 7 },{x: new Date('2017-11-29'), y: -1 },{x: new Date('2018-04-05'), y: 7 },{x: new Date('2018-04-06'), y: 7 },{x: new Date('2018-05-22'), y: 7 },{x: new Date('2018-05-29'), y: 7 },{x: new Date('2018-06-19'), y: 7 },],
+	borderColor: ['rgb(238,132,238)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black','black',]};
+array_ss['1546026'] = {label: '1546026',
+	data: [{x: new Date('2018-05-28'), y: 5 },{x: new Date('2018-05-29'), y: 5 },{x: new Date('2018-06-08'), y: 6 },{x: new Date('2018-06-11'), y: 7 },{x: new Date('2018-06-12'), y: 8 },{x: new Date('2018-06-19'), y: 8 },],
+	borderColor: ['rgb(110,89,200)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black',]};
+array_ss['1535442'] = {label: '1535442',
+	data: [{x: new Date('2018-05-11'), y: 1 },{x: new Date('2018-05-17'), y: 1 },{x: new Date('2018-05-23'), y: 5 },{x: new Date('2018-05-28'), y: 7 },{x: new Date('2018-06-19'), y: 7 },],
+	borderColor: ['rgb(233,185,186)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black',]};
+array_ss['1529796'] = {label: '1529796',
+	data: [{x: new Date('2018-05-08'), y: 6 },{x: new Date('2018-05-09'), y: 7 },{x: new Date('2018-05-15'), y: 11 },{x: new Date('2018-05-16'), y: 11 },{x: new Date('2018-06-19'), y: 11 },],
+	borderColor: ['rgb(50,142,159)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black',]};
+array_ss['1483210'] = {label: '1483210',
+	data: [{x: new Date('2018-03-05'), y: -1 },{x: new Date('2018-03-09'), y: -1 },{x: new Date('2018-03-23'), y: -1 },{x: new Date('2018-03-26'), y: -1 },{x: new Date('2018-03-28'), y: 5 },{x: new Date('2018-04-04'), y: 3 },{x: new Date('2018-04-06'), y: 4 },{x: new Date('2018-05-14'), y: -1 },{x: new Date('2018-05-15'), y: 4 },{x: new Date('2018-05-22'), y: 5 },{x: new Date('2018-06-12'), y: 5 },{x: new Date('2018-06-19'), y: 5 },],
+	borderColor: ['rgb(204,104,79)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black','black','black','black',]};
+array_ss['1538373'] = {label: '1538373',
+	data: [{x: new Date('2018-05-16'), y: 5 },{x: new Date('2018-06-19'), y: 5 },],
+	borderColor: ['rgb(242,208,64)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle',],
+	radius: [2,2,],
+	pointBackgroundColor: ['black','black',]};
+array_ss['1545999'] = {label: '1545999',
+	data: [{x: new Date('2018-05-28'), y: 5 },{x: new Date('2018-06-08'), y: 7 },{x: new Date('2018-06-11'), y: 8 },{x: new Date('2018-06-13'), y: 11 },{x: new Date('2018-06-19'), y: 11 },],
+	borderColor: ['rgb(72,115,225)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black',]};
+array_ss['1161652'] = {label: '1161652',
+	data: [{x: new Date('2017-01-27'), y: 11 },{x: new Date('2017-03-31'), y: 11 },{x: new Date('2017-04-10'), y: 1 },{x: new Date('2017-04-19'), y: 1 },{x: new Date('2017-05-03'), y: -1 },{x: new Date('2017-10-26'), y: 5 },{x: new Date('2017-12-04'), y: 5 },{x: new Date('2017-12-26'), y: -1 },{x: new Date('2018-06-19'), y: -1 },],
+	borderColor: ['rgb(174,83,55)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black',]};
+array_ss['1537257'] = {label: '1537257',
+	data: [{x: new Date('2018-05-16'), y: 4 },{x: new Date('2018-05-17'), y: 7 },{x: new Date('2018-05-28'), y: 7 },{x: new Date('2018-06-19'), y: 7 },],
+	borderColor: ['rgb(94,186,216)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle',],
+	radius: [2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black',]};
+array_ss['855460'] = {label: '855460',
+	data: [{x: new Date('2016-03-14'), y: 5 },{x: new Date('2016-04-05'), y: -1 },{x: new Date('2016-04-11'), y: 5 },{x: new Date('2016-05-27'), y: -1 },{x: new Date('2016-06-09'), y: -1 },{x: new Date('2016-12-08'), y: 5 },{x: new Date('2017-01-25'), y: 5 },{x: new Date('2017-02-17'), y: 5 },{x: new Date('2017-03-21'), y: 5 },{x: new Date('2017-03-31'), y: -1 },{x: new Date('2018-02-07'), y: -1 },{x: new Date('2018-06-19'), y: -1 },],
+	borderColor: ['rgb(201,179,24)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black','black','black','black',]};
+array_ss['1558492'] = {label: '1558492',
+	data: [{x: new Date('2018-06-14'), y: 6 },{x: new Date('2018-06-19'), y: 6 },],
+	borderColor: ['rgb(244,250,92)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle',],
+	radius: [2,2,],
+	pointBackgroundColor: ['black','black',]};
+array_ss['1329439'] = {label: '1329439',
+	data: [{x: new Date('2017-09-01'), y: -1 },{x: new Date('2018-06-19'), y: -1 },],
+	borderColor: ['rgb(83,148,234)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle',],
+	radius: [2,2,],
+	pointBackgroundColor: ['black','black',]};
+array_ss['1493317'] = {label: '1493317',
+	data: [{x: new Date('2018-03-16'), y: 11 },{x: new Date('2018-03-19'), y: 11 },{x: new Date('2018-03-21'), y: 11 },{x: new Date('2018-03-22'), y: 11 },{x: new Date('2018-03-23'), y: 11 },{x: new Date('2018-03-26'), y: 11 },{x: new Date('2018-06-19'), y: 11 },],
+	borderColor: ['rgb(202,133,59)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black',]};
+array_ss['1554719'] = {label: '1554719',
+	data: [{x: new Date('2018-06-14'), y: 7 },{x: new Date('2018-06-19'), y: 7 },],
+	borderColor: ['rgb(169,122,238)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle',],
+	radius: [2,2,],
+	pointBackgroundColor: ['black','black',]};
+array_ss['1534540'] = {label: '1534540',
+	data: [{x: new Date('2018-05-23'), y: 5 },{x: new Date('2018-05-28'), y: 11 },{x: new Date('2018-05-29'), y: 11 },{x: new Date('2018-06-19'), y: 11 },],
+	borderColor: ['rgb(214,132,21)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle',],
+	radius: [2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black',]};
+array_ss['972777'] = {label: '972777',
+	data: [{x: new Date('2016-06-20'), y: 5 },{x: new Date('2016-07-18'), y: 6 },{x: new Date('2016-07-25'), y: 9 },{x: new Date('2016-08-11'), y: 5 },{x: new Date('2016-08-19'), y: 7 },{x: new Date('2016-10-21'), y: 7 },{x: new Date('2016-11-11'), y: 7 },{x: new Date('2016-12-20'), y: 7 },{x: new Date('2017-01-26'), y: 7 },{x: new Date('2017-03-16'), y: 7 },{x: new Date('2017-03-27'), y: 7 },{x: new Date('2017-03-31'), y: 7 },{x: new Date('2017-04-11'), y: 7 },{x: new Date('2017-05-05'), y: 7 },{x: new Date('2017-05-08'), y: 7 },{x: new Date('2017-05-19'), y: 7 },{x: new Date('2017-06-14'), y: 7 },{x: new Date('2017-08-22'), y: 7 },{x: new Date('2017-09-29'), y: -1 },{x: new Date('2017-11-01'), y: -1 },{x: new Date('2017-11-13'), y: -1 },{x: new Date('2017-11-17'), y: 7 },{x: new Date('2018-04-04'), y: -1 },{x: new Date('2018-06-19'), y: -1 },],
+	borderColor: ['rgb(228,135,29)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black',]};
+array_ss['1537851'] = {label: '1537851',
+	data: [{x: new Date('2018-05-16'), y: 5 },{x: new Date('2018-05-22'), y: 6 },{x: new Date('2018-05-28'), y: 7 },{x: new Date('2018-06-07'), y: 7 },{x: new Date('2018-06-11'), y: 7 },{x: new Date('2018-06-12'), y: 10 },{x: new Date('2018-06-13'), y: 11 },{x: new Date('2018-06-19'), y: 11 },],
+	borderColor: ['rgb(220,61,220)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black',]};
+array_ss['1318927'] = {label: '1318927',
+	data: [{x: new Date('2017-09-01'), y: -1 },{x: new Date('2017-11-23'), y: -1 },{x: new Date('2018-06-19'), y: -1 },],
+	borderColor: ['rgb(185,211,18)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle',],
+	radius: [2,2,2,],
+	pointBackgroundColor: ['black','black','black',]};
+var array_pen = new Object();
+array_pen['1447810'] = {label: '1447810',
+	data: array_ss['1447810'].data,
+	borderColor: array_ss['1447810'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,5,5,5,8,8,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,8,8,8,8,8,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,8,8,8,5,5,5,5,5,5,8,8,],
+	pointBackgroundColor: ['red','red','red','blue','blue','blue','red','red','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','red','red','red','red','red','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','red','red','red','blue','blue','blue','blue','blue','blue','red','red',]};
+array_pen['1275015'] = {label: '1275015',
+	data: array_ss['1275015'].data,
+	borderColor: array_ss['1275015'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,5,5,5,5,8,8,8,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','blue','blue','blue','blue','red','red','red',]};
+array_pen['1546026'] = {label: '1546026',
+	data: array_ss['1546026'].data,
+	borderColor: array_ss['1546026'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,8,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red','red','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue',]};
+array_pen['1535442'] = {label: '1535442',
+	data: array_ss['1535442'].data,
+	borderColor: array_ss['1535442'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,8,8,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red','red','red','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue',]};
+array_pen['1529796'] = {label: '1529796',
+	data: array_ss['1529796'].data,
+	borderColor: array_ss['1529796'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,8,8,8,8,8,],
+	pointBackgroundColor: ['blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','red','red','red','red','red',]};
+array_pen['1483210'] = {label: '1483210',
+	data: array_ss['1483210'].data,
+	borderColor: array_ss['1483210'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,5,5,5,8,8,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,8,8,5,5,5,5,5,5,8,8,8,8,],
+	pointBackgroundColor: ['red','red','red','red','red','red','blue','blue','blue','red','red','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','red','red','blue','blue','blue','blue','blue','blue','red','red','red','red',]};
+array_pen['1538373'] = {label: '1538373',
+	data: array_ss['1538373'].data,
+	borderColor: array_ss['1538373'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,8,8,8,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red','red','red','red',]};
+array_pen['1545999'] = {label: '1545999',
+	data: array_ss['1545999'].data,
+	borderColor: array_ss['1545999'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red',]};
+array_pen['1161652'] = {label: '1161652',
+	data: array_ss['1161652'].data,
+	borderColor: array_ss['1161652'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,5,5,5,5,5,8,8,5,5,5,5,5,5,5,5,5,5,5,8,8,8,8,8,8,8,8,8,8,8,5,5,5,5,5,5,8,5,5,5,5,5,5,5,],
+	pointBackgroundColor: ['red','red','red','red','red','red','blue','blue','blue','blue','blue','red','red','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','red','red','red','red','red','red','red','red','red','red','red','blue','blue','blue','blue','blue','blue','red','blue','blue','blue','blue','blue','blue','blue',]};
+array_pen['1537257'] = {label: '1537257',
+	data: array_ss['1537257'].data,
+	borderColor: array_ss['1537257'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,5,5,8,8,8,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','blue','blue','red','red','red',]};
+array_pen['855460'] = {label: '855460',
+	data: array_ss['855460'].data,
+	borderColor: array_ss['855460'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,5,5,5,5,5,8,8,5,5,5,5,5,5,5,8,8,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','blue','blue','blue','blue','blue','red','red','blue','blue','blue','blue','blue','blue','blue','red','red',]};
+array_pen['1558492'] = {label: '1558492',
+	data: array_ss['1558492'].data,
+	borderColor: array_ss['1558492'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red',]};
+array_pen['1329439'] = {label: '1329439',
+	data: array_ss['1329439'].data,
+	borderColor: array_ss['1329439'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,5,5,5,5,5,8,8,8,8,],
+	pointBackgroundColor: ['blue','blue','blue','blue','blue','blue','blue','red','red','red','red',]};
+array_pen['1493317'] = {label: '1493317',
+	data: array_ss['1493317'].data,
+	borderColor: array_ss['1493317'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,5,5,5,5,8,8,8,5,5,8,8,8,8,8,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','blue','blue','blue','blue','red','red','red','blue','blue','red','red','red','red','red',]};
+array_pen['1554719'] = {label: '1554719',
+	data: array_ss['1554719'].data,
+	borderColor: array_ss['1554719'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,8,8,8,],
+	pointBackgroundColor: ['blue','blue','red','red','red',]};
+array_pen['1534540'] = {label: '1534540',
+	data: array_ss['1534540'].data,
+	borderColor: array_ss['1534540'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red',]};
+array_pen['972777'] = {label: '972777',
+	data: array_ss['972777'].data,
+	borderColor: array_ss['972777'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,5,5,5,5,8,8,8,8,8,5,5,5,5,8,8,8,5,5,5,5,5,8,8,8,5,5,5,5,8,8,8,5,5,5,5,5,5,5,8,8,8,8,8,8,5,5,5,5,5,5,5,5,5,8,8,8,5,5,5,5,5,5,5,5,5,5,5,],
+	pointBackgroundColor: ['red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','red','blue','blue','blue','blue','red','red','red','red','red','blue','blue','blue','blue','red','red','red','blue','blue','blue','blue','blue','red','red','red','blue','blue','blue','blue','red','red','red','blue','blue','blue','blue','blue','blue','blue','red','red','red','red','red','red','blue','blue','blue','blue','blue','blue','blue','blue','blue','red','red','red','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue',]};
+array_pen['1537851'] = {label: '1537851',
+	data: array_ss['1537851'].data,
+	borderColor: array_ss['1537851'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,8,8,8,8,8,5,5,5,5,5,5,5,],
+	pointBackgroundColor: ['blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','red','red','red','red','red','blue','blue','blue','blue','blue','blue','blue',]};
+array_pen['1318927'] = {label: '1318927',
+	data: array_ss['1318927'].data,
+	borderColor: array_ss['1318927'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,5,5,5,5,5,5,5,5,5,8,8,8,8,8,8,8,8,],
+	pointBackgroundColor: ['blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','red','red','red','red','red','red','red','red',]};
+array_ss_ativas = ['1447810','1275015','1546026','1535442','1529796','1483210','1538373','1545999','1537257','1558492','1493317','1554719','1534540','1537851',];
+array_ss_suspensas = ['1161652','855460','1329439','972777','1318927',];
+array_ss_aguardando_cli = ['1447810','1275015','1529796','1483210','1538373','1545999','1537257','855460','1558492','1329439','1493317','1554719','1534540','1318927',];
+array_ss_aguardando_des = ['1546026','1535442','1161652','972777','1537851',];
+alert(moment('2018-01-01'));
+    
+    var yLabels = {
+            '-2':'Aguardando CLIENTE',
+            '-1':'Suspensa',
+            0:'Aberta',
+            1:'Em Análise',
+            2:'Em Estimativa',
+            3:'Aguardando Autorização de Estimativa',
+            4:'Estimativa Aprovada',
+            5:'Em Atendimento',
+            6:'Entregue',
+            7:'Em Homologação',
+            8:'Homologação Aceita',
+            9:'Homologação Recusada',
+            10:'Homologada e Aguardando Implantação',
+            11:'Em Implantação'
+        }
+    var option = {
+        showLines: true,
+        scales: {            
+                xAxes: [{
+                    type: 'time',
+                    
+                    time: {
+    					format: "MMM",
+    					unit: 'month',
+    					min: moment('2018-01-01')
+    
+}
+                    
+                    }],
+                yAxes: [{
+                ticks: {                    
+                    stepSize: 1,
+                    min: -1,
+                    callback: function(value, index, values) {
+                        // for a value (tick) equals to 8
+                        return yLabels[value];
+                        // 'junior-dev' will be returned instead and displayed on your chart
+                    }
+                }
+            }],
+            }
+    };
+
+    var data = {    
+        datasets: [{label: '', 
+        	data: [{x: '', y: '' }] ,
+        	borderColor: [''],
+         }, ]
+    };
+
+    var myLineChart = Chart.Line(canvas,{
+        data:data,
+        options:option
+    });
+    
+
+    function renderizar(ss){
+            pend = document.getElementById("pend").checked
+            if(pend){
+            	dados = array_pen[ss];
+            }else{
+            	dados = array_ss[ss];
+            }
+            
+            myLineChart.data.datasets.push(dados);
+            myLineChart.option = option;
+            
+            myLineChart.update();
+    }
+
+    function atualizar(){
+    	 //myLineChart.data.datasets = [];
+         //myLineChart.update();
+         ativ = document.getElementById("ativ").checked;
+         susp = document.getElementById("susp").checked;
+    	 ac = document.getElementById("ac").checked;
+         ad = document.getElementById("ad").checked;
+         juncao = [];
+         if(ativ && susp){
+        	juncao = array_ss_ativas.concat(array_ss_suspensas);
+         } else if(ativ){
+         	juncao = array_ss_ativas;
+         } else if(susp){
+         	juncao = array_ss_suspensas;
+         }
+         comparador = juncao;
+         if(ac && ad){
+         	comparador = array_ss_aguardando_cli.concat(array_ss_aguardando_des);
+         } else if(ac){
+         	comparador = array_ss_aguardando_cli;
+         } else if(ad){
+         	comparador = array_ss_aguardando_des;
+         } 
+         
+         interseccao = [];
+         if(comparador.length && juncao.length){
+         	interseccao = juncao.filter(value => -1 !== comparador.indexOf(value))
+         } else if (comparador.length){
+         	interseccao = comparador;
+         } else if (juncao.length){
+         	interseccao = juncao;
+         }
+         
+         interseccao.forEach(renderizar);       
+        
+    }
+    
+    
+        Chart.plugins.register({
+    beforeDatasetsDraw: function(chartInstance) {
+        var ctx = chartInstance.chart.ctx;
+        var chartArea = chartInstance.chartArea;
+        ctx.save();
+        ctx.beginPath();
+
+        ctx.rect(chartArea.left, chartArea.top, chartArea.right - chartArea.left, chartArea.bottom - chartArea.top);
+        ctx.clip();
+    },
+    afterDatasetsDraw: function(chartInstance) {
+        chartInstance.chart.ctx.restore();
+    },
+});
+    
+</script>
+<br>
+<table><tr><td>
+<input type="checkbox" id="ativ" onclick="atualizar()">Ativas<br>
+<input type="checkbox" id="susp" onclick="atualizar()">Suspensas<br>
+</td><td>
+<input type="checkbox" id="ac" onclick="atualizar()">Aguardando Cliente<br>
+<input type="checkbox" id="ad" onclick="atualizar()">Aguardando Des<br>
+</td></tr><tr><td colspan=2>
+<input type="checkbox" id="pend" onclick="atualizar()">Exibir Pendências<br>
+</td></tr></table>
+

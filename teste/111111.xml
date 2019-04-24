@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<soapenv:Envelope
+	xmlns:com.ibm.team.repository.common.services="http:///com/ibm/team/core/services.ecore"
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:workitem.restDTO="com.ibm.team.workitem.rest.dto"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<response>
+			<method>getWorkItemDTO2</method>
+			<interface>com.ibm.team.workitem.common.internal.rest.IWorkItemRestService</interface>
+			<returnValue xsi:type="com.ibm.team.repository.common.services:ComplexDataArg">
+				<type>COMPLEX</type>
+				<value xsi:type="workitem.restDTO:WorkItemDTO">
+					<itemId>_5dhqQFUgEeiwUdcJBygvRg</itemId>
+					<stateId>_F7xJAG5OEeiWS8EsDorrSQ</stateId>
+					<locationUri>https://alm.serpro/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/1535442</locationUri>
+					<changes>
+						<content>estado</content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-05-01T13:51:40.207Z</modifiedDate>
+						<modifiedBy>
+							<id>_RSbkUFuKEeaZDY78X2i8Kw</id>
+							<itemId>_RSbkUFuKEeaZDY78X2i8Kw</itemId>
+							<userId>26272229615</userId>
+							<name>Carlyle Ramos de Oliveira Vilarinho</name>
+							<label>Carlyle Ramos de Oliveira Vilarinho</label>
+							<emailAddress>carlyle.vilarinho@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_RSbkUFuKEeaZDY78X2i8Kw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_RSbkUFuKEeaZDY78X2i8Kw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/26272229615</webUri>
+						</modifiedBy>
+					</changes>
+
+					<changes>
+						<content>estado</content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-05-02T19:07:28.580Z</modifiedDate>
+						<modifiedBy>
+							<id>_gIsBsJNwEeK64KGHgF3qkA</id>
+							<itemId>_gIsBsJNwEeK64KGHgF3qkA</itemId>
+							<userId>03962740481</userId>
+							<name>Milena Rodrigues Pinheiro de Souza</name>
+							<label>Milena Rodrigues Pinheiro de Souza</label>
+							<emailAddress>milena.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_gIsBsJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_gIsBsJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/03962740481</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>pendencia</content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-05-03T19:11:07.693Z</modifiedDate>
+						<modifiedBy>
+							<id>_gIsBsJNwEeK64KGHgF3qkA</id>
+							<itemId>_gIsBsJNwEeK64KGHgF3qkA</itemId>
+							<userId>03962740481</userId>
+							<name>Milena Rodrigues Pinheiro de Souza</name>
+							<label>Milena Rodrigues Pinheiro de Souza</label>
+							<emailAddress>milena.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_gIsBsJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_gIsBsJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/03962740481</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>estado</content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-05-04T13:34:27.160Z</modifiedDate>
+						<modifiedBy>
+							<id>_RSbkUFuKEeaZDY78X2i8Kw</id>
+							<itemId>_RSbkUFuKEeaZDY78X2i8Kw</itemId>
+							<userId>26272229615</userId>
+							<name>Carlyle Ramos de Oliveira Vilarinho</name>
+							<label>Carlyle Ramos de Oliveira Vilarinho</label>
+							<emailAddress>carlyle.vilarinho@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_RSbkUFuKEeaZDY78X2i8Kw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_RSbkUFuKEeaZDY78X2i8Kw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/26272229615</webUri>
+						</modifiedBy>
+					</changes>
+					
+				</value>
+			</returnValue>
+		</response>
+	</soapenv:Body>
+</soapenv:Envelope>

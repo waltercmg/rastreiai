@@ -1,0 +1,476 @@
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<style>
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.checkmark_rb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+	border-radius: 50%;
+ }
+ 
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+</style>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js"></script>
+
+<table><tr><td>
+<label class="container">Ativas
+  <input type="checkbox" id="ativ" onclick="atualizar()">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Suspensas
+  <input type="checkbox" id="susp" onclick="atualizar()">
+  <span class="checkmark"></span>
+</label>
+</td>
+<td>
+<label class="container">Aguardando Cliente
+  <input type="checkbox" id="ac" onclick="atualizar()">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Aguardando Desenv.
+  <input type="checkbox" id="ad" onclick="atualizar()">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Exibir Pendencias
+  <input type="checkbox" id="pend" onclick="atualizar()">
+  <span class="checkmark"></span>
+</label>
+
+</td>
+<td>
+<label class="container">Ultimos 15 dias
+  <input type="radio" name="periodo" onclick="periodo_quinze_dias()">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Periodo Completo
+  <input type="radio" name="periodo" onclick="periodo_completo()">
+  <span class="checkmark"></span>
+</label>
+</td>
+</table>
+
+<div class="container">
+  <canvas id="myChart"></canvas>
+</div>
+
+<script>
+    var canvas = document.getElementById('myChart');var array_ss = new Object();
+array_ss['1447810'] = {label: '1447810',
+	data: [{x: new Date('2018-01-11'), y: 0 },{x: new Date('2018-01-17'), y: 0 },{x: new Date('2018-01-22'), y: 0 },{x: new Date('2018-01-23'), y: 5 },{x: new Date('2018-01-25'), y: 1 },{x: new Date('2018-01-30'), y: -1 },{x: new Date('2018-03-02'), y: 2 },{x: new Date('2018-03-12'), y: -1 },{x: new Date('2018-03-19'), y: -1 },{x: new Date('2018-03-20'), y: 3 },{x: new Date('2018-03-22'), y: 5 },{x: new Date('2018-05-22'), y: 6 },{x: new Date('2018-05-23'), y: 6 },{x: new Date('2018-05-24'), y: 6 },{x: new Date('2018-05-28'), y: 7 },{x: new Date('2018-06-07'), y: 11 },{x: new Date('2018-06-13'), y: 11 },{x: new Date('2018-06-21'), y: 11 },],
+	borderColor: ['rgb(38,109,123)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black',]};
+array_ss['1275015'] = {label: '1275015',
+	data: [{x: new Date('2017-09-05'), y: -1 },{x: new Date('2017-09-28'), y: 6 },{x: new Date('2017-10-19'), y: 6 },{x: new Date('2017-11-23'), y: 7 },{x: new Date('2017-11-29'), y: -1 },{x: new Date('2018-04-05'), y: 7 },{x: new Date('2018-04-06'), y: 7 },{x: new Date('2018-05-22'), y: 7 },{x: new Date('2018-05-29'), y: 7 },{x: new Date('2018-06-21'), y: 7 },],
+	borderColor: ['rgb(36,76,80)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black','black',]};
+array_ss['1546026'] = {label: '1546026',
+	data: [{x: new Date('2018-05-28'), y: 5 },{x: new Date('2018-05-29'), y: 5 },{x: new Date('2018-06-08'), y: 6 },{x: new Date('2018-06-11'), y: 7 },{x: new Date('2018-06-12'), y: 8 },{x: new Date('2018-06-21'), y: 8 },],
+	borderColor: ['rgb(111,53,247)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black',]};
+array_ss['1535442'] = {label: '1535442',
+	data: [{x: new Date('2018-05-11'), y: 1 },{x: new Date('2018-05-17'), y: 1 },{x: new Date('2018-05-23'), y: 5 },{x: new Date('2018-05-28'), y: 7 },{x: new Date('2018-06-21'), y: 7 },],
+	borderColor: ['rgb(85,28,249)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black',]};
+array_ss['1529796'] = {label: '1529796',
+	data: [{x: new Date('2018-05-08'), y: 6 },{x: new Date('2018-05-09'), y: 7 },{x: new Date('2018-05-15'), y: 11 },{x: new Date('2018-05-16'), y: 11 },{x: new Date('2018-06-21'), y: 11 },],
+	borderColor: ['rgb(64,82,78)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black',]};
+array_ss['1483210'] = {label: '1483210',
+	data: [{x: new Date('2018-03-05'), y: 0 },{x: new Date('2018-03-09'), y: 0 },{x: new Date('2018-03-23'), y: 0 },{x: new Date('2018-03-26'), y: 0 },{x: new Date('2018-03-28'), y: 5 },{x: new Date('2018-04-04'), y: 3 },{x: new Date('2018-04-06'), y: 4 },{x: new Date('2018-05-14'), y: -1 },{x: new Date('2018-05-15'), y: 4 },{x: new Date('2018-05-22'), y: 5 },{x: new Date('2018-06-12'), y: 5 },{x: new Date('2018-06-21'), y: 5 },],
+	borderColor: ['rgb(93,109,142)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black','black','black','black',]};
+array_ss['1538373'] = {label: '1538373',
+	data: [{x: new Date('2018-05-16'), y: 0 },{x: new Date('2018-06-21'), y: 0 },],
+	borderColor: ['rgb(164,62,0)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle',],
+	radius: [2,2,],
+	pointBackgroundColor: ['black','black',]};
+array_ss['1545999'] = {label: '1545999',
+	data: [{x: new Date('2018-05-28'), y: 5 },{x: new Date('2018-06-08'), y: 7 },{x: new Date('2018-06-11'), y: 8 },{x: new Date('2018-06-13'), y: 11 },{x: new Date('2018-06-21'), y: 11 },],
+	borderColor: ['rgb(252,61,133)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black',]};
+array_ss['1161652'] = {label: '1161652',
+	data: [{x: new Date('2017-01-27'), y: 0 },{x: new Date('2017-03-31'), y: 0 },{x: new Date('2017-04-10'), y: 1 },{x: new Date('2017-04-19'), y: 1 },{x: new Date('2017-05-03'), y: -1 },{x: new Date('2017-10-26'), y: 5 },{x: new Date('2017-12-04'), y: 5 },{x: new Date('2017-12-26'), y: -1 },{x: new Date('2018-06-21'), y: -1 },],
+	borderColor: ['rgb(166,30,41)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black',]};
+array_ss['1537257'] = {label: '1537257',
+	data: [{x: new Date('2018-05-16'), y: 4 },{x: new Date('2018-05-17'), y: 7 },{x: new Date('2018-05-28'), y: 7 },{x: new Date('2018-06-21'), y: 7 },],
+	borderColor: ['rgb(223,255,197)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle',],
+	radius: [2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black',]};
+array_ss['855460'] = {label: '855460',
+	data: [{x: new Date('2016-03-14'), y: 5 },{x: new Date('2016-04-05'), y: -1 },{x: new Date('2016-04-11'), y: 5 },{x: new Date('2016-05-27'), y: -1 },{x: new Date('2016-06-09'), y: -1 },{x: new Date('2016-12-08'), y: 5 },{x: new Date('2017-01-25'), y: 5 },{x: new Date('2017-02-17'), y: 5 },{x: new Date('2017-03-21'), y: 5 },{x: new Date('2017-03-31'), y: -1 },{x: new Date('2018-02-07'), y: -1 },{x: new Date('2018-06-21'), y: -1 },],
+	borderColor: ['rgb(178,23,19)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black','black','black','black',]};
+array_ss['1558492'] = {label: '1558492',
+	data: [{x: new Date('2018-06-14'), y: 6 },{x: new Date('2018-06-21'), y: 6 },],
+	borderColor: ['rgb(34,85,220)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle',],
+	radius: [2,2,],
+	pointBackgroundColor: ['black','black',]};
+array_ss['1329439'] = {label: '1329439',
+	data: [{x: new Date('2017-09-01'), y: -1 },{x: new Date('2018-06-21'), y: -1 },],
+	borderColor: ['rgb(135,90,109)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle',],
+	radius: [2,2,],
+	pointBackgroundColor: ['black','black',]};
+array_ss['1493317'] = {label: '1493317',
+	data: [{x: new Date('2018-03-16'), y: 11 },{x: new Date('2018-03-19'), y: 11 },{x: new Date('2018-03-21'), y: 11 },{x: new Date('2018-03-22'), y: 11 },{x: new Date('2018-03-23'), y: 11 },{x: new Date('2018-03-26'), y: 11 },{x: new Date('2018-06-21'), y: 11 },],
+	borderColor: ['rgb(199,45,125)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black',]};
+array_ss['1554719'] = {label: '1554719',
+	data: [{x: new Date('2018-06-14'), y: 0 },{x: new Date('2018-06-21'), y: 0 },],
+	borderColor: ['rgb(153,90,34)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle',],
+	radius: [2,2,],
+	pointBackgroundColor: ['black','black',]};
+array_ss['1534540'] = {label: '1534540',
+	data: [{x: new Date('2018-05-23'), y: 5 },{x: new Date('2018-05-28'), y: 11 },{x: new Date('2018-05-29'), y: 11 },{x: new Date('2018-06-21'), y: 11 },],
+	borderColor: ['rgb(148,71,118)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle',],
+	radius: [2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black',]};
+array_ss['972777'] = {label: '972777',
+	data: [{x: new Date('2016-06-20'), y: 5 },{x: new Date('2016-07-18'), y: 6 },{x: new Date('2016-07-25'), y: 9 },{x: new Date('2016-08-11'), y: 5 },{x: new Date('2016-08-19'), y: 7 },{x: new Date('2016-10-21'), y: 7 },{x: new Date('2016-11-11'), y: 7 },{x: new Date('2016-12-20'), y: 7 },{x: new Date('2017-01-26'), y: 7 },{x: new Date('2017-03-16'), y: 7 },{x: new Date('2017-03-27'), y: 7 },{x: new Date('2017-03-31'), y: 7 },{x: new Date('2017-04-11'), y: 7 },{x: new Date('2017-05-05'), y: 7 },{x: new Date('2017-05-08'), y: 7 },{x: new Date('2017-05-19'), y: 7 },{x: new Date('2017-06-14'), y: 7 },{x: new Date('2017-08-22'), y: 7 },{x: new Date('2017-09-29'), y: -1 },{x: new Date('2017-11-01'), y: -1 },{x: new Date('2017-11-13'), y: -1 },{x: new Date('2017-11-17'), y: 7 },{x: new Date('2018-04-04'), y: -1 },{x: new Date('2018-06-21'), y: -1 },],
+	borderColor: ['rgb(235,11,36)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black',]};
+array_ss['1537851'] = {label: '1537851',
+	data: [{x: new Date('2018-05-16'), y: 5 },{x: new Date('2018-05-22'), y: 6 },{x: new Date('2018-05-28'), y: 7 },{x: new Date('2018-06-07'), y: 7 },{x: new Date('2018-06-11'), y: 7 },{x: new Date('2018-06-12'), y: 10 },{x: new Date('2018-06-13'), y: 11 },{x: new Date('2018-06-21'), y: 11 },],
+	borderColor: ['rgb(30,66,163)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle','circle','circle','circle','circle','circle',],
+	radius: [2,2,2,2,2,2,2,2,],
+	pointBackgroundColor: ['black','black','black','black','black','black','black','black',]};
+array_ss['1318927'] = {label: '1318927',
+	data: [{x: new Date('2017-09-01'), y: -1 },{x: new Date('2017-11-23'), y: -1 },{x: new Date('2018-06-21'), y: -1 },],
+	borderColor: ['rgb(170,104,197)'],	steppedLine: true, fill: false,	pointStyle: ['circle','circle','circle',],
+	radius: [2,2,2,],
+	pointBackgroundColor: ['black','black','black',]};
+var array_pen = new Object();
+array_pen['1447810'] = {label: '1447810',
+	data: array_ss['1447810'].data,
+	borderColor: array_ss['1447810'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,5,8,8,8,8,5,5,8,8,5,5,5,8,8,8,8,8,],
+	pointBackgroundColor: ['red','blue','red','red','red','red','blue','blue','red','red','blue','blue','blue','red','red','red','red','red',]};
+array_pen['1275015'] = {label: '1275015',
+	data: array_ss['1275015'].data,
+	borderColor: array_ss['1275015'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,8,8,8,8,8,5,8,8,],
+	pointBackgroundColor: ['blue','blue','red','red','red','red','red','blue','red','red',]};
+array_pen['1546026'] = {label: '1546026',
+	data: array_ss['1546026'].data,
+	borderColor: array_ss['1546026'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,5,5,5,5,5,],
+	pointBackgroundColor: ['red','blue','blue','blue','blue','blue',]};
+array_pen['1535442'] = {label: '1535442',
+	data: array_ss['1535442'].data,
+	borderColor: array_ss['1535442'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,5,5,5,5,],
+	pointBackgroundColor: ['red','blue','blue','blue','blue',]};
+array_pen['1529796'] = {label: '1529796',
+	data: array_ss['1529796'].data,
+	borderColor: array_ss['1529796'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,5,8,8,],
+	pointBackgroundColor: ['blue','blue','blue','red','red',]};
+array_pen['1483210'] = {label: '1483210',
+	data: array_ss['1483210'].data,
+	borderColor: array_ss['1483210'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,5,8,5,5,5,5,8,8,8,8,8,],
+	pointBackgroundColor: ['red','blue','red','blue','blue','blue','blue','red','red','red','red','red',]};
+array_pen['1538373'] = {label: '1538373',
+	data: array_ss['1538373'].data,
+	borderColor: array_ss['1538373'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle',],
+	radius: [8,8,],
+	pointBackgroundColor: ['red','red',]};
+array_pen['1545999'] = {label: '1545999',
+	data: array_ss['1545999'].data,
+	borderColor: array_ss['1545999'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,5,5,5,],
+	pointBackgroundColor: ['blue','blue','blue','blue','blue',]};
+array_pen['1161652'] = {label: '1161652',
+	data: array_ss['1161652'].data,
+	borderColor: array_ss['1161652'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,5,5,8,8,8,5,8,8,],
+	pointBackgroundColor: ['red','blue','blue','red','red','red','blue','red','red',]};
+array_pen['1537257'] = {label: '1537257',
+	data: array_ss['1537257'].data,
+	borderColor: array_ss['1537257'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle',],
+	radius: [5,5,8,8,],
+	pointBackgroundColor: ['blue','blue','red','red',]};
+array_pen['855460'] = {label: '855460',
+	data: array_ss['855460'].data,
+	borderColor: array_ss['855460'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,5,5,8,8,8,5,8,8,8,8,],
+	pointBackgroundColor: ['blue','blue','blue','blue','red','red','red','blue','red','red','red','red',]};
+array_pen['1558492'] = {label: '1558492',
+	data: array_ss['1558492'].data,
+	borderColor: array_ss['1558492'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle',],
+	radius: [8,8,],
+	pointBackgroundColor: ['red','red',]};
+array_pen['1329439'] = {label: '1329439',
+	data: array_ss['1329439'].data,
+	borderColor: array_ss['1329439'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle',],
+	radius: [8,8,],
+	pointBackgroundColor: ['red','red',]};
+array_pen['1493317'] = {label: '1493317',
+	data: array_ss['1493317'].data,
+	borderColor: array_ss['1493317'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [8,8,5,8,5,8,8,],
+	pointBackgroundColor: ['red','red','blue','red','blue','red','red',]};
+array_pen['1554719'] = {label: '1554719',
+	data: array_ss['1554719'].data,
+	borderColor: array_ss['1554719'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle',],
+	radius: [8,8,],
+	pointBackgroundColor: ['red','red',]};
+array_pen['1534540'] = {label: '1534540',
+	data: array_ss['1534540'].data,
+	borderColor: array_ss['1534540'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle',],
+	radius: [8,8,8,8,],
+	pointBackgroundColor: ['red','red','red','red',]};
+array_pen['972777'] = {label: '972777',
+	data: array_ss['972777'].data,
+	borderColor: array_ss['972777'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,5,5,5,8,5,8,8,5,8,5,8,5,8,5,8,5,5,8,5,5,5,5,],
+	pointBackgroundColor: ['blue','blue','blue','blue','blue','red','blue','red','red','blue','red','blue','red','blue','red','blue','red','blue','blue','red','blue','blue','blue','blue',]};
+array_pen['1537851'] = {label: '1537851',
+	data: array_ss['1537851'].data,
+	borderColor: array_ss['1537851'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle','triangle','triangle','triangle','triangle','triangle',],
+	radius: [5,5,5,5,8,8,8,8,],
+	pointBackgroundColor: ['blue','blue','blue','blue','red','red','red','red',]};
+array_pen['1318927'] = {label: '1318927',
+	data: array_ss['1318927'].data,
+	borderColor: array_ss['1318927'].borderColor,
+	steppedLine: true, fill: false,	pointStyle: ['triangle','triangle','triangle',],
+	radius: [5,8,8,],
+	pointBackgroundColor: ['blue','red','red',]};
+array_ss_ativas = ['1447810','1275015','1546026','1535442','1529796','1483210','1538373','1545999','1537257','1558492','1493317','1554719','1534540','1537851',];
+array_ss_suspensas = ['1161652','855460','1329439','972777','1318927',];
+array_ss_aguardando_cli = ['1447810','1275015','1529796','1483210','1538373','1161652','1537257','855460','1558492','1329439','1493317','1554719','1534540','1537851','1318927',];
+array_ss_aguardando_des = ['1546026','1535442','1545999','972777',];
+
+    
+    var yLabels = {
+            '-2':'Aguardando CLIENTE',
+            '-1':'Suspensa',
+            0:'Aberta',
+            1:'Em Análise',
+            2:'Em Estimativa',
+            3:'Aguardando Autorização de Estimativa',
+            4:'Estimativa Aprovada',
+            5:'Em Atendimento',
+            6:'Entregue',
+            7:'Em Homologação',
+            8:'Homologação Aceita',
+            9:'Homologação Recusada',
+            10:'Homologada e Aguardando Implantação',
+            11:'Em Implantação'
+        }
+    var option = {
+        showLines: true,
+        scales: {            
+                xAxes: [{
+                    type: 'time'}],
+                yAxes: [{
+                ticks: {                    
+                    stepSize: 1,
+                    min: -1,
+                    callback: function(value, index, values) {
+                        // for a value (tick) equals to 8
+                        return yLabels[value];
+                        // 'junior-dev' will be returned instead and displayed on your chart
+                    }
+                }
+            }],
+            }
+    };
+
+    var data = {    
+        datasets: [{label: '', 
+        	data: [{x: '', y: '' }] ,
+        	borderColor: [''],
+         }, ]
+    };
+
+    var myLineChart = Chart.Line(canvas,{
+        data:data,
+        options:option
+    });
+    
+
+    function renderizar(ss){
+            pend = document.getElementById("pend").checked
+            if(pend){
+            	dados = array_pen[ss];
+            }else{
+            	dados = array_ss[ss];
+            }
+            
+            myLineChart.data.datasets.push(dados);
+            myLineChart.update();
+    }
+
+
+function atualizar(){
+    	 myLineChart.data.datasets = [];
+         myLineChart.update();
+         ativ = document.getElementById("ativ").checked;
+         susp = document.getElementById("susp").checked;
+    	 ac = document.getElementById("ac").checked;
+         ad = document.getElementById("ad").checked;
+
+         array_ati_sus = [];
+         if(ativ && susp){
+        	array_ati_sus = array_ss_ativas.concat(array_ss_suspensas);
+         } else if(ativ){
+            array_ati_sus = array_ss_ativas;
+         } else if(susp){
+            array_ati_sus = array_ss_suspensas;
+         } else {
+            array_ati_sus = null;
+         }
+         
+         array_ac_ad = [];
+         if(ac && ad){
+            array_ac_ad = array_ss_aguardando_cli.concat(array_ss_aguardando_des);
+         } else if(ac){
+            array_ac_ad = array_ss_aguardando_cli;
+         } else if(ad){
+            array_ac_ad = array_ss_aguardando_des;
+         } else {
+            array_ac_ad = null;
+         }
+         
+        interseccao = [];
+        if(array_ati_sus != null && array_ac_ad != null){
+            interseccao = array_ati_sus.filter(value => -1 !== array_ac_ad.indexOf(value)) ;                
+        } else if(array_ati_sus != null ){
+            interseccao = array_ati_sus;
+        } else if(array_ac_ad != null ){
+            interseccao = array_ac_ad;
+        }
+        interseccao.forEach(renderizar);               
+        
+    }
+    
+    function periodo_quinze_dias(){
+	    myLineChart.options.scales.xAxes[0].time.min = moment('2018-06-06');
+        myLineChart.options.scales.xAxes[0].time.unit = 'day';
+        myLineChart.update();
+    }
+
+    function periodo_completo(){
+	    myLineChart.options.scales.xAxes[0].time.min = '';
+        myLineChart.options.scales.xAxes[0].time.unit = '';
+		myLineChart.update();
+    }
+
+    Chart.plugins.register({
+    beforeDatasetsDraw: function(chartInstance) {
+        var ctx = chartInstance.chart.ctx;
+        var chartArea = chartInstance.chartArea;
+        ctx.save();
+        ctx.beginPath();
+
+        ctx.rect(chartArea.left, chartArea.top-10, chartArea.right - chartArea.left, chartArea.bottom - chartArea.top + 15);
+        ctx.clip();
+    },
+    afterDatasetsDraw: function(chartInstance) {
+        chartInstance.chart.ctx.restore();
+    },
+});
+
+    
+</script>

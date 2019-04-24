@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<soapenv:Envelope
+	xmlns:com.ibm.team.repository.common.services="http:///com/ibm/team/core/services.ecore"
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:workitem.restDTO="com.ibm.team.workitem.rest.dto"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<response>
+			<method>getWorkItemDTO2</method>
+			<interface>com.ibm.team.workitem.common.internal.rest.IWorkItemRestService</interface>
+			<returnValue xsi:type="com.ibm.team.repository.common.services:ComplexDataArg">
+				<type>COMPLEX</type>
+				<value xsi:type="workitem.restDTO:WorkItemDTO">
+					<itemId>_NT2a1TS6Eea_Lr1pNCboRg</itemId>
+					<stateId>_Z-w94jhDEeiIj_xkxqKYDA</stateId>
+					<locationUri>https://alm.serpro/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/972777</locationUri>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Assunto&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>ME - View materializada para Incra e TCU&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Descrição&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Conforme &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/884920&quot;>SS 884920&lt;/a>, solicita-se a materialização das views do TCU/INCRA na base do SNCR, junto ao dump semanal entregue aos clientes.&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tipo&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Solicitação de Serviço&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Área do Projeto&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Negócio (Solicitação de Serviço)&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Área de Equipe&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNCE&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Renan Pinheiro do Egypto Guerra&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Prioridade&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Urgente&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[1]&quot;>#1&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Copiado do item de trabalho 884920.&lt;/td>&lt;/tr>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Luiz Adriano Aires Martins&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Aline Goncalves Cabeceira&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Thiago Petri Duarte&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Antonio Carlos Sacramento&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Sergio Henrique Cunha Zica&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Redator Anterior&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>_3cZ4hc1HEeK6vquQQMSx4Q&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Número da Demanda&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>097631&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Acesso Restrito&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNCE (archived)&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tipo da Demanda&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Manutenção Evolutiva&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>UG&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNCE&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data da Solicitação do Cliente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-02-22T15:00:00.000Z-->Feb 22, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>972777&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UG&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>27624&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Criado Por&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Sergio Henrique Cunha Zica&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Código de Serviço&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SNCR/WEB-SNCR/WEB-38052&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Calculado - Código de Serviço x Redator SS&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SNCR/WEB-SNCR/WEB-38052;_3cZ4hc1HEeK6vquQQMSx4Q&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Entrega Prevista&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-06-23T15:00:00.000Z-->Jun 23, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Origem da Demanda&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Demandas&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Informativo Operacao Continuada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Essa guia deve ser preenchida apenas na criação de solicitação de serviço que&lt;br/>será atendida por lotes de trabalho na operação continuada.&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Esforço Previsto (HD)&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>0&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Numero Demanda WS&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>NAOVALIDO&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Número do Serviço&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>38052&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUPDE/DERCE/DE4ED&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg Destinatario&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>27274&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-06-17T18:40:09.505Z-->Jun 17, 2016, 3:40 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Ordem de Atendimento&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>3&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Número Demanda UG&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNCE&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Mnemônico do Serviço&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SNCR/WEB&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Sergio Henrique Cunha Zica&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID Usuário Corrente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>_3cZ4hc1HEeK6vquQQMSx4Q&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>CPF Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Falha ao recuperar CPF&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tipo Cliente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Externo&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>_3cZ4hc1HEeK6vquQQMSx4Q&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>27630&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Solicitante Externo&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Jovelino Lotério Ramos&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação do Solicitante Externo&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>INCRA/DFC&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação do Redator&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUNCE/CEDIN&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Criação&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-06-17T18:40:09.378Z-->Jun 17, 2016, 3:40 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-06-17T18:40:09.507Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Renan Pinheiro do Egypto Guerra&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Bruno Loureiro de Abreu&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>SUPDE/DERCE/DE&lt;del>4ED&lt;/del>&lt;ins>410&lt;/ins>&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg Destinatario&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>27274&lt;/del>&lt;ins>53838&lt;/ins>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-06-17T19:05:57.183Z</modifiedDate>
+						<modifiedBy>
+							<id>_gMarJ5NwEeK64KGHgF3qkA</id>
+							<itemId>_gMarJ5NwEeK64KGHgF3qkA</itemId>
+							<userId>04255640459</userId>
+							<name>Antonio Francisco Malinconico</name>
+							<label>Antonio Francisco Malinconico</label>
+							<emailAddress>antonio.francisco-malinconico@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_gMarJ5NwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_gMarJ5NwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/04255640459</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Aberta&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Em Atendimento&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-06-17T18:40:09.505Z-->Jun 17, 2016, 3:40 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-06-20T14:03:01.967Z-->Jun 20, 2016, 11:03 AM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-06-20T14:03:01.968Z</modifiedDate>
+						<modifiedBy>
+							<id>_fsIBgJNwEeK64KGHgF3qkA</id>
+							<itemId>_fsIBgJNwEeK64KGHgF3qkA</itemId>
+							<userId>02398887405</userId>
+							<name>Gustavo Henrique Marinho de Souza</name>
+							<label>Gustavo Henrique Marinho de Souza</label>
+							<emailAddress>gustavo-henrique.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fsIBgJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fsIBgJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/02398887405</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Entrega Prevista&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-06-23T15:00:00.000Z-->Jun 23, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-07-01T15:00:00.000Z-->Jul 1, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Motivo de Replanejamento&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Não Informado&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;URC/CLI - Replanej. Data Expectativa Inicial&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>SS Replanejada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>false&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;true&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-06-22T17:57:27.899Z</modifiedDate>
+						<modifiedBy>
+							<id>_exblQY2yEeO0naGEpERQAg</id>
+							<itemId>_exblQY2yEeO0naGEpERQAg</itemId>
+							<userId>25746308749</userId>
+							<name>Antonio Carlos Sacramento</name>
+							<label>Antonio Carlos Sacramento</label>
+							<emailAddress>antonio-carlos.sacramento@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_exblQY2yEeO0naGEpERQAg</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_exblQY2yEeO0naGEpERQAg</imageUrl>
+							<webUri>https://alm.serpro/jts/users/25746308749</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Entrega Prevista&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-07-01T15:00:00.000Z-->Jul 1, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-07-08T15:00:00.000Z-->Jul 8, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Motivo de Replanejamento&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>URC/CLI - Replanej. Data Expectativa Inicial&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;DES – Ajustes/Correções de Homologação&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-01T17:34:01.702Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Linguagem Predominante&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>&amp;lt;Unassigned&amp;gt;&lt;/del>&lt;ins>PLSQL E DEMAIS LINGUAGENS PARA SGBDS-33&lt;/ins>&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>SS Replanejada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>true&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;false&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-01T19:16:37.358Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Entrega Prevista&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-07-08T15:00:00.000Z-->Jul 8, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-07-15T15:00:00.000Z-->Jul 15, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Motivo de Replanejamento&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DES – Ajustes/Correções de Homologação&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;URC/CLI - Replanej. Data Expectativa Inicial&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>SS Replanejada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>false&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;true&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-08T19:24:53.308Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[2]&quot;>#2&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Visando melhorar a performance foram realizados atividades focadas no custo Oracle das consultas e conseguimos reduzir o tempo de execução da consulta dos dados do imóvel(view VW_INFO_DADO_IMOV)&lt;br />utilizando como referência um único imóvel. Seu processo durava 5 minutos e conseguimos ter um ganho reduzindo para um pouco meno de 3 minutos(145 seg) e posteriormente para 60 segundos.&lt;br />Das 3 views as que extraem os dados dos imóveis e os titulares(VW_INFO_TTLR_VINC_IMOV) são as de maior custo de tempo e que precisariam ser trabalhadas.&lt;br />&lt;br />Porém quando se solicita a extração dos dados dos imóveis de todos os 6.499.990 imóveis processados em nossa base de testes(dump de 05/05/2016) foi necessário abortar o processo após 41h de execução.&lt;br />&lt;br />Mudamos a abordagem. Criamos tabelas temporárias que iriam receber os dados das views e as view materializadas iriam carregar com os dados das tabelas temporárias. Com o uso das tabelas temporárias o refresh das views materializadas ocorrem em menos de 2 segundos.&lt;br />&lt;br />Os testes realizados no ambiente de testes obtivemos os seguintes resultados.&lt;br />&lt;br />&lt;b>IMOVEIS PROCESSADOS |&lt;/b> &lt;b>DADOS DOS IMOVEIS&lt;/b> |&amp;nbsp; &lt;b>TITULARES DOS IMOVEIS |&lt;/b> &lt;b>TEMPO DE EXTRAÇÃO&lt;/b>&lt;br />&amp;nbsp;&amp;nbsp; 100.000 |&amp;nbsp;&amp;nbsp;&amp;nbsp; 271.202 |&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 187.570 | 00:15:26&lt;br />&amp;nbsp;&amp;nbsp; 500.000 | 1.316.282 |&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 857.568 | 01:03:24&lt;br />1.000.000 | 2.787.859 | 1.842.284 | 01:17:41&lt;br />2.000.000 | 6.251.125 | 4.166.536 | 03:00:20&lt;br />3.000.000 | 8.204.319 | 6.432.036 | 05:32:03&lt;br />&lt;br />ONDE:&lt;br />Imoveis Processados - Quantidade de Imóveis utilizados no processamento das views;&lt;br />Dados dos Imóveis - Quantidade de registros de informação dos dados dos imóveis;&lt;br />Títulares dos Imóveis - Quantidade de registros de informação dos titulares dos imóveis;&lt;br />Tempo de Extração - Tempo total para extrair os dados e titulares dos imóveis;&lt;br />&lt;br />Como podemos comprovar houveram ganhos significativos. Porém ainda longe do que se pretende para se tornar uma rotina semanal. Ainda não conseguimos contabilizar uma execução completa das views, extraíndo as informações dos 6.499.990 imóveis, por conta do tempo de execução de extração superar 12h e sermos forçados a abortar para continuar as atividades de ganho de performance e correções necessárias.&lt;br />&lt;br />Uma sugestão é gerar apenas disponibilizar os objetos e orientar o TCU a eles próprios processarem a extração e popupação das tabelas temporárias, além do refresh das views materializadas.&lt;br /> &lt;/td>&lt;/tr>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Gustavo Henrique Marinho de Souza&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>SS Replanejada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>true&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;false&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-08T21:58:06.663Z</modifiedDate>
+						<modifiedBy>
+							<id>_fsIBgJNwEeK64KGHgF3qkA</id>
+							<itemId>_fsIBgJNwEeK64KGHgF3qkA</itemId>
+							<userId>02398887405</userId>
+							<name>Gustavo Henrique Marinho de Souza</name>
+							<label>Gustavo Henrique Marinho de Souza</label>
+							<emailAddress>gustavo-henrique.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fsIBgJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fsIBgJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/02398887405</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Entrega Prevista&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-07-15T15:00:00.000Z-->Jul 15, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-07-22T15:00:00.000Z-->Jul 22, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Motivo de Replanejamento&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>URC/CLI - Replanej. Data Expectativa Inicial&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;URC/CLI – Indisponibilidade do cliente&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>SS Replanejada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>false&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;true&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-15T18:52:57.901Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[3]&quot;>#3&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Conforme alinhado com a URC, devido problemas de performance que inviabilizam uma consulta geral, sugerimos a obrigação de filtrar as consultas das views por UF e/ou SR, tal sugestão será levada ao cliente para validação.&lt;/td>&lt;/tr>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Jonas Cesar de Souza Pontes&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>SS Replanejada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>true&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;false&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-15T18:55:29.537Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Em Atendimento&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Entregue&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[4]&quot;>#4&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Estamos entregando a SS que deverá voltar para atendimento caso o cliente resolva fazer a alteração de inclusão do filtro.&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-06-20T14:03:01.967Z-->Jun 20, 2016, 11:03 AM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-07-18T19:33:58.409Z-->Jul 18, 2016, 4:33 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-18T19:33:58.425Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Entregue&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Em Homologação&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-07-18T19:33:58.409Z-->Jul 18, 2016, 4:33 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-07-25T19:42:24.038Z-->Jul 25, 2016, 4:42 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-25T19:42:24.171Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Em Homologação&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Homologação Recusada&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[5]&quot;>#5&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Segue retorno do cliente: &amp;quot;De acordo, podem ser providenciado aos views na forma proposta, ou seja por UF.&amp;quot;&lt;br />&lt;br />Homologação recusada para que a SS possa voltar para o estado &amp;quot;Em Atendimento&amp;quot;&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-07-25T19:42:24.038Z-->Jul 25, 2016, 4:42 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-07-25T19:43:44.417Z-->Jul 25, 2016, 4:43 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-25T19:43:44.418Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Produtividade (HH/PF)&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>&amp;lt;Unassigned&amp;gt;&lt;/del>&lt;ins>5&lt;/ins>&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Esforço Previsto (HD)&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>0&lt;/del>&lt;ins>11,25&lt;/ins>&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tamanho Previsto (PF)&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>&amp;lt;Unassigned&amp;gt;&lt;/del>&lt;ins>18&lt;/ins>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-27T21:47:04.725Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[6]&quot;>#6&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Contagem de PF efetuada: &lt;a href=&quot;https://alm.serpro/ccm/web/projects/SNCR-WEB%20(Gerenciamento%20de%20Mudan%C3%A7as)#action=com.ibm.team.scm.browseElement&amp;amp;workspaceItemId=_TwzskFSIEeS9UY8vvKyurw&amp;amp;componentItemId=_TxJq0FSIEeS9UY8vvKyurw&amp;amp;itemType=com.ibm.team.filesystem.FileItem&amp;amp;itemId=_U83_UFRDEeatspImuBNs3w&quot;>SNCR-WEB-972777-APF-REF.ods&lt;/a>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-27T21:47:46.427Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[7]&quot;>#7&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Prezados, o Incra continua tendo dificuldades em executar as views. segue nota do cliente (DET). Peço que a DERCE responda o que for possível:&lt;br />&lt;br />&amp;quot;&lt;i>A consulta retornou erro novamente. select count from SNCR.VW_INFO_DADO_IMOV * ERROR at line 1: ORA-01427: single-row subquery returns more than one row at, Hélio&amp;quot;&lt;br />&lt;br />Em virtude do insucesso em carregar a base do SERPRO e acessar as views pela segunda vez, aguardamos que o SERPRO nos envie as seguintes informações:&lt;br />&lt;br />1) Descrição adequada dos arquivos de dump que estão sendo disponibilizados (nomenclatura e descrição do conteúdo do arquivo);&lt;br />2) Passo a passo da forma adequada de fazer o carregamento dos arquivos de dump disponibilizados;&lt;br />3) A forma adequada de visualizar que a operação foi realizada com sucesso (sqls-consultas e resultados);&lt;br />4) A forma adequada de realizar o carregamento e materialização das views (scripts e operações);&lt;br />5) Documentação completa da base de dados contendo: dicionário de dados, modelo entidade relacionamento, indexação, chaves primárias e secundárias, script de carga, triggers, procedures.&lt;br />&lt;br />Sem as informações acima solicitadas a DET não tem condições de continuar executando de forma adequada as operações de carregamento e materialização dos dumps que são enviados pelo SERPRO. Portanto a DET deixará de realizar os procedimentos de carregamento até que nos seja fornecidos as informações suficientes acima descritas para realizar as operações com a base do SNCR.&lt;br />&lt;br />Aguardamos retorno&lt;/i>&amp;quot;&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-29T13:33:44.387Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[8]&quot;>#8&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;synthetic>Incluído: &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/237958&quot;>anexo 237958&lt;/a> (Nota View TCU.pdf)&lt;/synthetic>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-29T13:40:47.448Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[9]&quot;>#9&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Sobre o erro reportado no item 7 da discussão, ele ocorre nas situações em que há o retorno de mais de um registro quando deveria haver apenas um, como exemplo temos os casos de imóveis com mais de uma sede, vamos identificar qual o registro com erro para analisar os ajustes necessários. Sobre as informações solicitadas pelo INCRA, vamos analisar e responder os questionamentos. Será estimado novo prazo para atendimento das alterações das views.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-07-29T18:49:58.547Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Homologação Recusada&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Em Atendimento&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-07-25T19:43:44.417Z-->Jul 25, 2016, 4:43 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-08-11T13:47:37.956Z-->Aug 11, 2016, 10:47 AM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-08-11T13:47:37.985Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Entrega Prevista&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-07-22T15:00:00.000Z-->Jul 22, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-08-19T15:00:00.000Z-->Aug 19, 2016, 12:00 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Motivo de Replanejamento&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>URC/CLI – Indisponibilidade do cliente&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;SUPCD – Pendência&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>SS Replanejada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>false&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;true&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-08-11T13:48:49.162Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[10]&quot;>#10&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Agendado para executar no dia 19-Ago às 18h o script que irá carregar 20 ufs para que possa ir no DUMP que será gerado hoje e enviado para o TCU e INCRA para homologação dos dados.&lt;br />Views criadas para a Homologação dos dados.&lt;br />- WM_INFO_TTLR_VINC_IMOV_AC&lt;br />- WM_INFO_TTLR_VINC_IMOV_AL&lt;br />- WM_INFO_TTLR_VINC_IMOV_AM&lt;br />- WM_INFO_TTLR_VINC_IMOV_AP&lt;br />- WM_INFO_TTLR_VINC_IMOV_CE&lt;br />- WM_INFO_TTLR_VINC_IMOV_DF&lt;br />- WM_INFO_TTLR_VINC_IMOV_ES&lt;br />- WM_INFO_TTLR_VINC_IMOV_GO&lt;br />- WM_INFO_TTLR_VINC_IMOV_MA&lt;br />- WM_INFO_TTLR_VINC_IMOV_MS&lt;br />- WM_INFO_TTLR_VINC_IMOV_MT&lt;br />- WM_INFO_TTLR_VINC_IMOV_PA&lt;br />- WM_INFO_TTLR_VINC_IMOV_PB&lt;br />- WM_INFO_TTLR_VINC_IMOV_PE&lt;br />- WM_INFO_TTLR_VINC_IMOV_PI&lt;br />- WM_INFO_TTLR_VINC_IMOV_RJ&lt;br />- WM_INFO_TTLR_VINC_IMOV_RN&lt;br />- WM_INFO_TTLR_VINC_IMOV_RO&lt;br />- WM_INFO_TTLR_VINC_IMOV_RR&lt;br />- WM_INFO_TTLR_VINC_IMOV_SC&lt;br />- WM_INFO_TTLR_VINC_IMOV_SE&lt;br />- WM_INFO_TTLR_VINC_IMOV_TO&lt;br />- WM_INFO_DADO_IMOV_AC&lt;br />- WM_INFO_DADO_IMOV_AL&lt;br />- WM_INFO_DADO_IMOV_AM&lt;br />- WM_INFO_DADO_IMOV_AP&lt;br />- WM_INFO_DADO_IMOV_CE&lt;br />- WM_INFO_DADO_IMOV_DF&lt;br />- WM_INFO_DADO_IMOV_ES&lt;br />- WM_INFO_DADO_IMOV_GO&lt;br />- WM_INFO_DADO_IMOV_MA&lt;br />- WM_INFO_DADO_IMOV_MS&lt;br />- WM_INFO_DADO_IMOV_MT&lt;br />- WM_INFO_DADO_IMOV_PA&lt;br />- WM_INFO_DADO_IMOV_PB&lt;br />- WM_INFO_DADO_IMOV_PE&lt;br />- WM_INFO_DADO_IMOV_PI&lt;br />- WM_INFO_DADO_IMOV_RJ&lt;br />- WM_INFO_DADO_IMOV_RN&lt;br />- WM_INFO_DADO_IMOV_RO&lt;br />- WM_INFO_DADO_IMOV_RR&lt;br />- WM_INFO_DADO_IMOV_SC&lt;br />- WM_INFO_DADO_IMOV_SE&lt;br />- WM_INFO_DADO_IMOV_TO&lt;br />- VM_INFO_STUA_JRDC&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>SS Replanejada&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>true&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;false&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-08-19T20:06:32.140Z</modifiedDate>
+						<modifiedBy>
+							<id>_fsIBgJNwEeK64KGHgF3qkA</id>
+							<itemId>_fsIBgJNwEeK64KGHgF3qkA</itemId>
+							<userId>02398887405</userId>
+							<name>Gustavo Henrique Marinho de Souza</name>
+							<label>Gustavo Henrique Marinho de Souza</label>
+							<emailAddress>gustavo-henrique.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fsIBgJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fsIBgJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/02398887405</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Em Atendimento&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Entregue&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-08-11T13:47:37.956Z-->Aug 11, 2016, 10:47 AM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-08-19T20:06:43.374Z-->Aug 19, 2016, 5:06 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-08-19T20:06:43.375Z</modifiedDate>
+						<modifiedBy>
+							<id>_fsIBgJNwEeK64KGHgF3qkA</id>
+							<itemId>_fsIBgJNwEeK64KGHgF3qkA</itemId>
+							<userId>02398887405</userId>
+							<name>Gustavo Henrique Marinho de Souza</name>
+							<label>Gustavo Henrique Marinho de Souza</label>
+							<emailAddress>gustavo-henrique.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fsIBgJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fsIBgJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/02398887405</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=2>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[11]&quot;>#11&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Segue em &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/244471&quot;>anexo 244471&lt;/a> o Procedimento Operacional da geração do dump automatizado. Uma vez que não houve envolvimento da DE na sua elaboração, ele estava sob nossa gestão. Entretanto, agora deve-se incluir no mesmo a materialização das views antes da geração do dump. Assim, creio que a DERCE deva alterá-lo e colocá-lo nas área de P.O.s do sistema SNCR.&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;synthetic>Incluído: &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/244471&quot;>anexo 244471&lt;/a> (Procedimento Operacional_SNCR_38052_DUMP_20150821_CORRIGIDO.doc)&lt;/synthetic>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-08-19T20:53:37.423Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Entregue&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Em Homologação&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-08-19T20:06:43.374Z-->Aug 19, 2016, 5:06 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2016-08-19T20:54:05.809Z-->Aug 19, 2016, 5:54 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-08-19T20:54:05.810Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[13]&quot;>#13&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Já carregado em produção os estados para homologação:&lt;br />PR (606744 imoveis), SP (504467 imóveis), SC (398718 imóveis), CE (262765 imóveis), GO (245828 imóveis), PE (223558 imóveis), MT (181536 imóveis), MA (169055 imóveis), PA (163111 imóveis), PI (162053 imóveis), ES (155120 imóveis), PB (144243 imóveis), RO (125376 imóveis), RJ (106881 imóveis), SE (101673 imóveis), MS (101099 imóveis), TO (85503 imóveis), AM (78161 imóveis), RN (71213 imóveis), AL (55721 imóveis), RR (36158 imóveis), AC (29222 imóveis), DF (12675 imóveis) e AP (12184 imóveis)&lt;br /> &lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-09-14T21:05:42.041Z</modifiedDate>
+						<modifiedBy>
+							<id>_fsIBgJNwEeK64KGHgF3qkA</id>
+							<itemId>_fsIBgJNwEeK64KGHgF3qkA</itemId>
+							<userId>02398887405</userId>
+							<name>Gustavo Henrique Marinho de Souza</name>
+							<label>Gustavo Henrique Marinho de Souza</label>
+							<emailAddress>gustavo-henrique.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fsIBgJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fsIBgJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/02398887405</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[14]&quot;>#14&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Faltam carregar:&lt;br />- MG (1003342 imoveis)&lt;br />- RS (803963 imoveis)&lt;br />- BA (716145 imoveis)&lt;br /> &lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-09-14T21:06:41.824Z</modifiedDate>
+						<modifiedBy>
+							<id>_fsIBgJNwEeK64KGHgF3qkA</id>
+							<itemId>_fsIBgJNwEeK64KGHgF3qkA</itemId>
+							<userId>02398887405</userId>
+							<name>Gustavo Henrique Marinho de Souza</name>
+							<label>Gustavo Henrique Marinho de Souza</label>
+							<emailAddress>gustavo-henrique.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fsIBgJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fsIBgJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/02398887405</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[15]&quot;>#15&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Carregados os imóveis dos estados de BA e RS.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-09-21T11:45:24.041Z</modifiedDate>
+						<modifiedBy>
+							<id>_fsIBgJNwEeK64KGHgF3qkA</id>
+							<itemId>_fsIBgJNwEeK64KGHgF3qkA</itemId>
+							<userId>02398887405</userId>
+							<name>Gustavo Henrique Marinho de Souza</name>
+							<label>Gustavo Henrique Marinho de Souza</label>
+							<emailAddress>gustavo-henrique.souza@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fsIBgJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fsIBgJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/02398887405</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[16]&quot;>#16&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/02398887405&quot;>@02398887405&lt;/a> o cliente alega dificuldade não só em verificar as Views para homologá-las, mas do próprio carregamento do dump. Nśo precisamos fazer uma áudio com a DET para sanar estas dúvidas, mas adianto os questionamentos dos mesmos&lt;br />&lt;br />1) Descrição adequada dos arquivos de dump que estão sendo disponibilizados (nomenclatura e descrição do conteúdo do arquivo);&lt;br />2) Passo a passo da forma adequada de fazer o carregamento dos arquivos de dump disponibilizados;&lt;br />3) A forma adequada de visualizar que a operação foi realizada com sucesso (sqlsconsultas e resultados);&lt;br />4) A forma adequada de realizar o carregamento e materialização das views (scripts e operações);&lt;br />5) Documentação completa da base de dados contendo: dicionário de dados, modelo entidade relacionamento, indexação, chaves primárias e secundárias, script de carga, triggers, procedures.&lt;br />&lt;br />Se possível responder a estes questionamentos (o 5º já sei que não tem) talvez seja o suficiente para que a DET saia do outro lado.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-10-04T20:46:15.189Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[17]&quot;>#17&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>#Acompanhamento (20/10/16): Carlyle irá agendar áudio com o cliente.&lt;/td>&lt;/tr>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Walter de Carvalho Mattos Galvao&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-10-20T13:53:16.518Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[18]&quot;>#18&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>#Acompanhamento (20/10/16) Áudio realizada com cliente (representado por Sabrina) e desenvolvimento (Walter e Gustavo) , eu e o Luiz. O Desenvolvimento enviará&amp;nbsp; uma documentação mais completa ao INCRA.&lt;/td>&lt;/tr>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Carlyle Ramos de Oliveira Vilarinho&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-10-20T19:02:32.403Z</modifiedDate>
+						<modifiedBy>
+							<id>_RSbkUFuKEeaZDY78X2i8Kw</id>
+							<itemId>_RSbkUFuKEeaZDY78X2i8Kw</itemId>
+							<userId>26272229615</userId>
+							<name>Carlyle Ramos de Oliveira Vilarinho</name>
+							<label>Carlyle Ramos de Oliveira Vilarinho</label>
+							<emailAddress>carlyle.vilarinho@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_RSbkUFuKEeaZDY78X2i8Kw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_RSbkUFuKEeaZDY78X2i8Kw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/26272229615</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=2>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[19]&quot;>#19&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Carlyle &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/26272229615&quot;>@26272229615&lt;/a>, bom dia.&lt;br />&lt;br />Segue documento contendo os detalhes de cada &lt;i>view&lt;/i>.&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;synthetic>Incluído: &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/261678&quot;>anexo 261678&lt;/a> (Views_detalhadas.xls)&lt;/synthetic>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-10-21T13:40:11.220Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-10-21T13:40:30.231Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[21]&quot;>#21&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>#Acompanhamento (26/10/16): As informações solicitadas foram entregues. Carlyle irá confirmar com o cliente se pode concluir a homologação.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-10-26T18:21:28.597Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=2>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[22]&quot;>#22&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Segue em &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/267536&quot;>anexo 267536&lt;/a> Plano de Homologação para revisão e acréscimo de informações pertinentes.&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;synthetic>Incluído: &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/267536&quot;>anexo 267536&lt;/a> (Plano Homologação - DM 097631 - Views TCU.odt)&lt;/synthetic>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-11-11T14:21:17.638Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[24]&quot;>#24&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>P/C, foi feito o seguinte acompanhamento para o cliente na demanda:&lt;br />&lt;br />&amp;quot;Prezados, durante o processo de desenvolvimento e entrega da DM 095663 (AESP CNA) verificou-se que da maneira como ela foi solicitada todos os imóveis, sem distinção de ativos e cancelados, eram extraídos. Foi decidido em áudio para aquele caso que apenas os imóveis ativos comporiam a Aesp.&lt;br />&lt;br />Na presente demanda, verificamos que não há nas views, conforme o layout solicitado, o campo &amp;quot;Situação Cadastral do IR&amp;quot;&amp;quot; que possa ser parametrizado de modo a separar os Imóveis ativos dos cancelados.&lt;br />&lt;br />Pergunta-se ao Incra se:&lt;br />a) deve continuar desta maneira;&lt;br />b) este campo deve constar das views;&lt;br />c) apenas IRs ativos devem constar das views; ou&lt;br />d) alguma outra opção.&amp;quot;&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-11-16T19:01:39.480Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[25]&quot;>#25&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Para registro, foi feita uma reunião ontem com a DET e a DFC sobre o WebService e também sobre esta demanda. Estamos aguardando a ata de reunião para encaminhar as definições. Mas o Incra ficou de entrar em contato com o TCU para que eles façam a homologação da demanda, e não a DET.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-11-24T17:15:38.050Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[26]&quot;>#26&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Zica &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> / Sacramento &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/25746308749&quot;>@25746308749&lt;/a> , alguma novidade sobre a homologação desta demanda?&lt;/td>&lt;/tr>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Wagner Rubis Costa&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2016-12-20T13:52:28.285Z</modifiedDate>
+						<modifiedBy>
+							<id>_zNsygKFMEeK-mPpRqndMiw</id>
+							<itemId>_zNsygKFMEeK-mPpRqndMiw</itemId>
+							<userId>04225018407</userId>
+							<name>Wagner Rubis Costa</name>
+							<label>Wagner Rubis Costa</label>
+							<emailAddress>wagner.costa@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_zNsygKFMEeK-mPpRqndMiw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_zNsygKFMEeK-mPpRqndMiw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/04225018407</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[27]&quot;>#27&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>#Acompanhamento (25/01/17): &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> Zica irá cobrar aprovação do cliente para conclusão da homologação.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-01-25T21:35:34.238Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-01-26T12:36:54.854Z</modifiedDate>
+						<modifiedBy>
+							<id>_zNsygKFMEeK-mPpRqndMiw</id>
+							<itemId>_zNsygKFMEeK-mPpRqndMiw</itemId>
+							<userId>04225018407</userId>
+							<name>Wagner Rubis Costa</name>
+							<label>Wagner Rubis Costa</label>
+							<emailAddress>wagner.costa@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_zNsygKFMEeK-mPpRqndMiw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_zNsygKFMEeK-mPpRqndMiw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/04225018407</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[28]&quot;>#28&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/00937325465&quot;>@00937325465&lt;/a> favor gerar a contagem final de PF desta SS.&lt;br />&lt;br />O cliente não homologou a demanda no prazo acordado. Será informado aos mesmo que a contagem final será elaborada, e que será faturado de acordo com o contrato.&lt;br />&lt;br />Se o cliente não retornar até a contagem final ficar pronta, será solicitado que seja retirado de Produção as Views e a materialiação.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-03-16T20:38:33.848Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Maurus Otavio Fonseca Santos&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-03-27T13:24:15.496Z</modifiedDate>
+						<modifiedBy>
+							<id>_MIUkIGnCEeKaxLyewP5LAA</id>
+							<itemId>_MIUkIGnCEeKaxLyewP5LAA</itemId>
+							<userId>10227580478</userId>
+							<name>Maurus Otavio Fonseca Santos</name>
+							<label>Maurus Otavio Fonseca Santos</label>
+							<emailAddress>maurus-otavio.santos@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_MIUkIGnCEeKaxLyewP5LAA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_MIUkIGnCEeKaxLyewP5LAA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/10227580478</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=2>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[29]&quot;>#29&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a>&amp;nbsp;&amp;nbsp; &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/00937325465&quot;>@00937325465&lt;/a> &lt;br />Prezados,&lt;br />Segue em anexo a contagem final.&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;synthetic>Incluído: &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/305522&quot;>anexo 305522&lt;/a> (SNCR-WEB-972777-APF-FIN.ods)&lt;/synthetic>&lt;/td>&lt;/tr>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Jose Clodoaldo Jatoba Silva Junior&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-03-27T14:02:50.724Z</modifiedDate>
+						<modifiedBy>
+							<id>_f3qjIpNwEeK64KGHgF3qkA</id>
+							<itemId>_f3qjIpNwEeK64KGHgF3qkA</itemId>
+							<userId>03408185492</userId>
+							<name>Jose Clodoaldo Jatoba Silva Junior</name>
+							<label>Jose Clodoaldo Jatoba Silva Junior</label>
+							<emailAddress>jose-clodoaldo.silva@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_f3qjIpNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_f3qjIpNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/03408185492</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-03-27T14:04:42.671Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[31]&quot;>#31&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Prezados, após contato com o cliente, favor retirar do ambiente de Produção tanto as views quanto as suas materializações.&lt;br />&lt;br />Favor também revisar a contagem final para evidenciar o que se trata das Views em si e o que se trata da materialização.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-03-30T21:05:35.187Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-03-31T13:33:32.359Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-03-31T15:07:18.778Z</modifiedDate>
+						<modifiedBy>
+							<id>_MIUkIGnCEeKaxLyewP5LAA</id>
+							<itemId>_MIUkIGnCEeKaxLyewP5LAA</itemId>
+							<userId>10227580478</userId>
+							<name>Maurus Otavio Fonseca Santos</name>
+							<label>Maurus Otavio Fonseca Santos</label>
+							<emailAddress>maurus-otavio.santos@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_MIUkIGnCEeKaxLyewP5LAA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_MIUkIGnCEeKaxLyewP5LAA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/10227580478</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tamanho Realizado (PF)&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>&amp;lt;Unassigned&amp;gt;&lt;/del>&lt;ins>18&lt;/ins>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-04-10T15:34:34.561Z</modifiedDate>
+						<modifiedBy>
+							<id>_MIUkIGnCEeKaxLyewP5LAA</id>
+							<itemId>_MIUkIGnCEeKaxLyewP5LAA</itemId>
+							<userId>10227580478</userId>
+							<name>Maurus Otavio Fonseca Santos</name>
+							<label>Maurus Otavio Fonseca Santos</label>
+							<emailAddress>maurus-otavio.santos@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_MIUkIGnCEeKaxLyewP5LAA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_MIUkIGnCEeKaxLyewP5LAA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/10227580478</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[32]&quot;>#32&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Bom dia &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> Zica e &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/25746308749&quot;>@25746308749&lt;/a> Sacramento,&lt;br />&lt;br />As views foram retiradas do ambiente de produção.&lt;br />A contagem final é a mesma enviada no &lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[30]&quot;>comentário 30&lt;/a>.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-04-11T14:02:56.485Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-04-11T14:55:06.288Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[33]&quot;>#33&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Será realizada uma reunião com o Incra e o TCU hoje às 16;30 para tratar a homologação desta demanda.&lt;br />&lt;br />Possivelmente será solicitado que seja colocado novamente em Produção por um período de tempo a ser acordado e bem definido para que ocorra a homologação definitiva.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-05-02T18:03:12.162Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[34]&quot;>#34&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Prezados, em reunião com o Incra e o TCU dia 02/05/17, foram acordados os passos para podermos finalizar esta demanda.&lt;br />&lt;br />1) O Serpro encaminharia a documentação das views para revisão pelo Incra e TCU. Eu encontrei apenas os &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/261678&quot;>anexo 261678&lt;/a> e &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/221274&quot;>anexo 221274&lt;/a>. Existe algum outro documento? Lembro que é necessária FSR para a Eficácia fazer a validação da contagem final. Favor encaminhá-la bem como quaisquer outros documentos disponíveis.&lt;br />2) Após a revisão das views é possível que surjam alterações. Por exemplo, já foi sinalizado que irão querer a inclusão do campo &amp;quot;Situação Cadastral do IR&amp;quot; conforme &lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[24]&quot;>comentário 24&lt;/a>.&lt;br />3) As views materializadas deverão ser regeradas e novamente disponibilizadas.&lt;br />&lt;br />Em relação ao item 3, se for necessário favor verificar junto à DEDEP em relação à entrega para homologação em ambiente de produção.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-05-05T19:57:54.154Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=2>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[35]&quot;>#35&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Prezado Zica &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> , sobre a FSR, a mesma foi construída e versionada anteriormente, na &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/884920&quot;>SS 884920&lt;/a>, segue link para acesso:&lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.filesystem.service.internal.rest.IFilesystemContentService/-/_TxJq0FSIEeS9UY8vvKyurw/SNCR-WEB-884920-FSR-VIEWS_TCU.odt?itemId=_r19fsAyhEea0cfXw2wG8UA&amp;amp;stateId=_jPlPZBk8EeadPdmiQ5hd1A&amp;amp;platformLineDelimiter=CR&quot;> SNCR-WEB-884920-FSR-VIEWS_TCU.odt&lt;/a> , além disto o artefato segue anexado.&lt;br /> &lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;synthetic>Incluído: &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/316902&quot;>anexo 316902&lt;/a> (SNCR-WEB-884920-FSR-VIEWS_TCU.odt)&lt;/synthetic>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-05-05T20:01:37.358Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[37]&quot;>#37&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> Zica, boa tarde.&lt;br />&lt;br />Conforme áudio realizada com o DEDEP no dia 05/05/17, estamos aguardando posicionamento do cliente quanto à proposta de enviarmos os conteúdos das views em arquivos e não no dump de produção para que a demanda seja homologada.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-05-08T17:53:38.749Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-05-08T18:08:09.849Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Bruno Loureiro de Abreu&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Walter de Carvalho Mattos Galvao&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>&lt;/del>&lt;ins>DIDES/&lt;/ins>SUPDE/DERCE/DE&lt;del>410&lt;/del>&lt;ins>4D4&lt;/ins>&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg Destinatario&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>53838&lt;/del>&lt;ins>6614&lt;/ins>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-05-19T13:43:49.409Z</modifiedDate>
+						<modifiedBy>
+							<id>_gDKogJNwEeK64KGHgF3qkA</id>
+							<itemId>_gDKogJNwEeK64KGHgF3qkA</itemId>
+							<userId>03770934407</userId>
+							<name>Esther Zuleika Rodrigues Coimbra</name>
+							<label>Esther Zuleika Rodrigues Coimbra</label>
+							<emailAddress>esther.coimbra@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_gDKogJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_gDKogJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/03770934407</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=2>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[38]&quot;>#38&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Segue nota recebida pelo TCU &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/320753&quot;>anexo 320753&lt;/a>. Favor avaliar os itens 1, 2, 3 e 5.&lt;br />&lt;br />Quanto ao item 4, foi informado ao cliente que não será possível enviar as views em dump de produção novamente, e que enviaremos os conteúdos das views em arquivos e para que a demanda seja homologada.&lt;br />&lt;br />Favor prosseguir com o atendimento.&lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;synthetic>Incluído: &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/320753&quot;>anexo 320753&lt;/a> (Nota View TCU DM 97631.pdf)&lt;/synthetic>&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Ordem de Atendimento&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>3&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;36&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-05-19T14:30:50.334Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[40]&quot;>#40&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/00937325465&quot;>@00937325465&lt;/a> alguma previsão de atendimento desta SS?&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-06-09T21:10:51.817Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[41]&quot;>#41&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Prezado Zica &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> , atendimento retomado, estou analisando as solicitações do cliente, conforme apontado.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-06-12T13:34:03.510Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[42]&quot;>#42&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Prezado Zica &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> , seguem respostas à demanda do cliente:&lt;br />&lt;br />1. Em relação ao campo “Situação Cadastral do IR”: deve ser enviado todos os imóveis, sendo que deve existir um campo que permita selecionar a situação de modo a separar os imóveis ativos dos cancelados. Na view VW_INFO_DADO_IMOV já existe um campo denominado “SITUACAO_IMOVEL”, esse campo é diferente do proposto &amp;quot;Situacao Cadastral do IR&amp;quot;?&lt;br />&lt;br />&lt;b>&lt;i>O campo “SITUACAO_IMOVEL”, presente na view citada, representa exatamente a Situação Cadastral do Imóvel Rural, possibilitando a separação dos imóveis ativos dos cancelados.&lt;/i>&lt;/b>&lt;br />&lt;br />2. O campo “DATA_CADASTRO” na view VM_INFO_TTLR_VINC_IMOV é a data da&lt;br />vinculação entre a pessoa e o imóvel? Pois precisamos saber quando o imóvel foi registrado para determinada pessoa, seria esse campo?&lt;br />&lt;br />&lt;i>&lt;b>O campo “DATA_CADASTRO”, contêm a primeira data, em que uma declaração foi salva com as informações de vinculação entre a pessoa e o imóvel, sendo assim representa a data de vinculação, no sistema SNCR, entre o imóvel e o titular.&lt;/b>&lt;/i>&lt;br />&lt;br />3. Conforme informado na reunião, devem ser extraídos todos os imóveis existentes na base, mesmo que com campos vazios ou nulos ou inexistindo em algum relacionamento com a tabela principal, ou seja, qualquer informação da existência do imóvel tem utilidade.&lt;br />&lt;br />&lt;b>&lt;i>As views estão de acordo com esta especificação, as colunas com dados inexistentes são exibidas vazias/nulas, sem omissão do registro.&lt;/i>&lt;/b>&lt;br />&lt;br />4. Solicitamos que nos informem quando tiverem materializado as views e enviado para o TCU para que possamos fazer a carga no nosso ambiente e iniciar a homologação.&lt;br />&lt;br />&lt;i>&lt;b>Item tratado pela URC.&lt;/b>&lt;/i>&lt;br />&lt;br />5. Solicitamos que nos encaminhem, juntamente com as views, os códigos fontes, pois nos ajudarão no processo de homologação.&lt;br />&lt;br />&lt;b>&lt;i>O código fonte pode ser obtido através das próprias views, basta exportar os scripts DDL de cada view. Para facilitar o acesso, os mesmos foram exportados e versionados no ALM conforme link abaixo.&lt;br />&lt;a href=&quot;https://alm.serpro/ccm/web/projects/SNCR-WEB%20%28Gerenciamento%20de%20Mudan%C3%A7as%29#action=com.ibm.team.scm.browseElement&amp;amp;workspaceItemId=_TwzskFSIEeS9UY8vvKyurw&amp;amp;componentItemId=_TxJq0FSIEeS9UY8vvKyurw&amp;amp;itemType=com.ibm.team.filesystem.FileItem&amp;amp;itemId=_TAvNIE-WEeeHK-sCA8tiuw&quot;>scripts_views.zip&lt;/a>&lt;br />Solicitamos à URC que seja verificada a possibilidade de enviar estes ao cliente, tendo em vista que, apesar de o código fonte ser sigiloso, o mesmo já está embutido no DUMP recebido pelo cliente.&lt;/i>&lt;/b>&lt;br />&lt;br />&lt;br /> &lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-06-12T17:44:08.969Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[43]&quot;>#43&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/01057946435&quot;>@01057946435&lt;/a>&lt;br />1. Mas esse campo existe nas outras views ou só nessa? Será necessário alterar as outras?&lt;br />2. Ok. Sem alteração então?&lt;br />3. Ok.&lt;br />5. A view&amp;nbsp; foi retirada de Produção, conforme solicitado no &lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[38]&quot;>comentário 38&lt;/a>? Se não, deve-se retirar, pois o cliente foi informado como se daria a homologação da demanda, conforme definido no &lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[37]&quot;>comentário 37&lt;/a> junto à DEDEP (o Serpro enviará os conteúdos das views em arquivos)&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-06-13T22:54:50.236Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[44]&quot;>#44&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Prezado Zica &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> , seguem respostas:&lt;br />&lt;br />1. Mas esse campo existe nas outras views ou só nessa? Será necessário alterar as outras?&lt;br />&lt;b>RESPOSTA:&lt;/b> O&amp;nbsp; campo &lt;b>&lt;i>SITUACAO_IMOVEL&lt;/i>&lt;/b> está presente apenas na VIEW que contêm os dados do Imóvel: &lt;b>VW_INFO_DADO_IMOV. &lt;/b>Porém o filtro por esta situação pode ser feito para qualquer uma das views, basta realizar o JOIN das VIEWS através do código do imóvel, que é o campo &lt;b>CODIGO_IMOVEL, &lt;/b>presente em todas as&lt;b> VIEWS.&lt;/b>&lt;br />&lt;br />2. Ok. Sem alteração então?&lt;br />&lt;b>RESPOSTA:&lt;/b> Correto! Não será necessário alteração.&lt;br />&lt;br />3. Ok.&lt;br />&lt;br />5. A view&amp;nbsp; foi retirada de Produção, conforme solicitado no &lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[38]&quot;>comentário 38&lt;/a>? Se não, deve-se retirar, pois o cliente foi informado como se daria a homologação da demanda, conforme definido no &lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[37]&quot;>comentário 37&lt;/a> junto à DEDEP (o Serpro enviará os conteúdos das views em arquivos).&lt;br />&lt;b>RESPOSTA: &lt;/b>As views foram retiradas de produção da seguinte forma: renomeamos as views que servem de base para as materializadas, logo estas não estão acessíveis.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-06-14T18:01:33.412Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-06-14T18:01:46.379Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[45]&quot;>#45&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/01057946435&quot;>@01057946435&lt;/a> mas nesse caso, a View Materializada, se o DBA do TCU fizer uso das Views renomeadas, eles não conseguiriam continuar usando as views? Se sim, a meu ver as views em si tem que ser excluídas da base de produção, e não apenas inviabilizar as Views materialziadas....&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-06-14T20:51:47.734Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[46]&quot;>#46&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Prezado Zica &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> , elas não estão sendo materializadas, eles podem ter acesso ao script, detalhando as mesmas, e rodar a consulta direto, mas não usar as views.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-06-29T14:25:45.963Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[47]&quot;>#47&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Anotando Sacramento &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/25746308749&quot;>@25746308749&lt;/a>, para conhecimento do último comentário,&amp;nbsp; devido férias de Zica.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-06-29T14:26:57.447Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=2>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[48]&quot;>#48&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Colocando a planilha de APF na versão 3.1 e atualizando a contagem de referência para contagem final.&lt;br /> &lt;/td>&lt;/tr>&lt;tr>&lt;td>&lt;synthetic>Removido: &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/305522&quot;>anexo 305522&lt;/a> (SNCR-WEB-972777-APF-FIN.ods)&lt;br />Incluído: &lt;a href=&quot;https://alm.serpro/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/341232&quot;>anexo 341232&lt;/a> (SNCRWEB-ME-972777-View materializada para Incra e TCU-APF-FIN.ods)&lt;/synthetic>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-07-26T19:25:27.970Z</modifiedDate>
+						<modifiedBy>
+							<id>_f3qjIpNwEeK64KGHgF3qkA</id>
+							<itemId>_f3qjIpNwEeK64KGHgF3qkA</itemId>
+							<userId>03408185492</userId>
+							<name>Jose Clodoaldo Jatoba Silva Junior</name>
+							<label>Jose Clodoaldo Jatoba Silva Junior</label>
+							<emailAddress>jose-clodoaldo.silva@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_f3qjIpNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_f3qjIpNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/03408185492</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[50]&quot;>#50&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/01057946435&quot;>@01057946435&lt;/a> conforme contato telefônico, para prosseguir a homologação desta demanda, a DERCE deve:&lt;br />&lt;br />- retirar do banco de Produção as views, não só as materializadas;&lt;br />- gerar arquivo com o resultado da materialização das views para homologação pelo TCU e aceite pelo Incra.&lt;br />- este arquivo, seria uma massa de homologação? Em caso positivo, deve ser acrescido à contagem final de PF.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-08-22T20:21:24.111Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Luiz Adriano Aires Martins&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-08-22T21:15:32.910Z</modifiedDate>
+						<modifiedBy>
+							<id>_rx-0QMBkEeOd9eq9LfQROw</id>
+							<itemId>_rx-0QMBkEeOd9eq9LfQROw</itemId>
+							<userId>69480133172</userId>
+							<name>Luiz Adriano Aires Martins</name>
+							<label>Luiz Adriano Aires Martins</label>
+							<emailAddress>luiz.martins@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_rx-0QMBkEeOd9eq9LfQROw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_rx-0QMBkEeOd9eq9LfQROw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/69480133172</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Lotação Destinatário&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DIDES/SUPDE/DERCE/DE&lt;del>4D4&lt;/del>&lt;ins>404&lt;/ins>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-09-19T23:02:58.036Z</modifiedDate>
+						<modifiedBy>
+							<id>_MIUkIGnCEeKaxLyewP5LAA</id>
+							<itemId>_MIUkIGnCEeKaxLyewP5LAA</itemId>
+							<userId>10227580478</userId>
+							<name>Maurus Otavio Fonseca Santos</name>
+							<label>Maurus Otavio Fonseca Santos</label>
+							<emailAddress>maurus-otavio.santos@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_MIUkIGnCEeKaxLyewP5LAA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_MIUkIGnCEeKaxLyewP5LAA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/10227580478</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[51]&quot;>#51&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/01057946435&quot;>@01057946435&lt;/a> Algum retorno sobre o solicitado no &lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[50]&quot;>comentário 50&lt;/a>?&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-09-29T16:43:08.582Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Em Homologação&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Suspensa [Em Homologação]&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Resolução&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&amp;lt;none&amp;gt;&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;DES – Alteração de prioridade&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2016-08-19T20:54:05.809Z-->Aug 19, 2016, 5:54 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2017-09-29T16:47:50.253Z-->Sep 29, 2017, 1:47 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-09-29T16:47:50.254Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[52]&quot;>#52&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Demanda suspensa (em Homologação há mais de 31 dias).&lt;br />&lt;br />SS suspensa para compatibilizar os estados entre DM e SS.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-09-29T16:48:33.962Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[53]&quot;>#53&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/03408185492&quot;>@03408185492&lt;/a> &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/01057946435&quot;>@01057946435&lt;/a> &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/00937325465&quot;>@00937325465&lt;/a> aguardando retorno sobre o &lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[50]&quot;>comentário 50&lt;/a>.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-10-31T19:04:49.544Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[54]&quot;>#54&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Prezado Zica &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> as solicitações já foram atendidas, porém não temos como anexar o resultado da materialização no ALM nem subir para o expresso drive, devido o tamanho dos mesmos.&lt;br />&lt;br />Podemos enviar para você via Pdgin(Psi) ou ainda disponibilizar em algum FTP que você tenha acesso (favor indicar a melhor opção).&lt;br />&lt;br />Em relação à contagem de PF, acredito que não trata-se de massa de homologação, mas apenas de disponibilização do resultado da consulta em outra mídia, o que não alteraria a quantidade de PF.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-11-01T19:44:55.347Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[55]&quot;>#55&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> Zica, bom dia.&lt;br />&lt;br />Favor responder ao &lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[54]&quot;>comentário 54&lt;/a>.&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-11-13T14:05:10.769Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[56]&quot;>#56&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/00937325465&quot;>@00937325465&lt;/a> &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/01057946435&quot;>@01057946435&lt;/a> favor encaminhar opara os clientes via Qware:&lt;br />&lt;br />Transferir o arquivo gerado para o servidor do Qware (área do INCRA):&lt;br />&lt;br />Servidor de destino: 161.148.1.33&lt;br />Localização no destino: E:\POBOX\sncr\outbox&lt;br />&lt;br />Transferir o arquivo gerado para o servidor do Qware (área do TCU):&lt;br />Servidor de destino: 161.148.1.33&lt;br />Localização no destino: E:\POBOX\030001\outbox&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-11-13T19:56:37.918Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[57]&quot;>#57&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Zica &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> &lt;br />RDM Aberta para transferência dos arquivos a partir de FTP:&lt;b> 2017RDM/0000016197&lt;br />&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/00937325465&quot;>@00937325465&lt;/a> , &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/03962740481&quot;>@03962740481&lt;/a> , &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/01057002402&quot;>@01057002402&lt;/a> &lt;br /> &lt;/b>&lt;br /> &lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-11-16T11:38:39.330Z</modifiedDate>
+						<modifiedBy>
+							<id>_fjseQJNwEeK64KGHgF3qkA</id>
+							<itemId>_fjseQJNwEeK64KGHgF3qkA</itemId>
+							<userId>01057946435</userId>
+							<name>Jonas Cesar de Souza Pontes</name>
+							<label>Jonas Cesar de Souza Pontes</label>
+							<emailAddress>jonas.pontes@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fjseQJNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fjseQJNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/01057946435</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Suspensa [Em Homologação]&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Em Homologação&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Resolução&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>DES – Alteração de prioridade&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&amp;lt;none&amp;gt;&lt;/td>&lt;/tr>&lt;tr>&lt;td>Tags&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_desenvolvimento&#xA;&lt;br />Added:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;aguardando_urc/cli&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[58]&quot;>#58&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Segue informações de captura dos arquivos pela equipe do ControlM:&lt;br />&lt;br />E:\POBOX\sncr\outbox\VW_INFO_DADO_IMOV.zip&amp;nbsp;&amp;nbsp;&amp;nbsp; Get&amp;nbsp;&amp;nbsp;&amp;nbsp; Rep&amp;nbsp;&amp;nbsp;&amp;nbsp; Ok&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1223075619&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 17/11/2017 - 17:09:02&amp;nbsp;&amp;nbsp;&amp;nbsp; 17/11/2017 - 17:10:03&amp;nbsp;&amp;nbsp;&amp;nbsp; Binário&amp;nbsp;&amp;nbsp;&amp;nbsp; 189.9.36.2&amp;nbsp;&amp;nbsp;&amp;nbsp; C:\qware\VW_INFO_DADO_IMOV.zip&amp;nbsp;&amp;nbsp;&amp;nbsp; sncr&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br />&lt;br />E:\POBOX\sncr\outbox\VW_INFO_STUA_JRDC.zip&amp;nbsp;&amp;nbsp;&amp;nbsp; Get&amp;nbsp;&amp;nbsp;&amp;nbsp; Rep&amp;nbsp;&amp;nbsp;&amp;nbsp; Ok&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 45128533&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 17/11/2017 - 17:07:59&amp;nbsp;&amp;nbsp;&amp;nbsp; 17/11/2017 - 17:08:01&amp;nbsp;&amp;nbsp;&amp;nbsp; Binário&amp;nbsp;&amp;nbsp;&amp;nbsp; 189.9.36.2&amp;nbsp;&amp;nbsp;&amp;nbsp; C:\qware\VW_INFO_STUA_JRDC.zip&amp;nbsp;&amp;nbsp;&amp;nbsp; sncr&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br />&lt;br />E:\POBOX\sncr\outbox\VM_INFO_TTLR_VINC_IMOV.zip&amp;nbsp;&amp;nbsp;&amp;nbsp; Get&amp;nbsp;&amp;nbsp;&amp;nbsp; Rep&amp;nbsp;&amp;nbsp;&amp;nbsp; Ok&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 622128264&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 17/11/2017 - 17:07:35&amp;nbsp;&amp;nbsp;&amp;nbsp; 17/11/2017 - 17:07:59&amp;nbsp;&amp;nbsp;&amp;nbsp; Binário&amp;nbsp;&amp;nbsp;&amp;nbsp; 189.9.36.2&amp;nbsp;&amp;nbsp;&amp;nbsp; C:\qware\VM_INFO_TTLR_VINC_IMOV.zip&amp;nbsp;&amp;nbsp;&amp;nbsp; sncr&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2017-09-29T16:47:50.253Z-->Sep 29, 2017, 1:47 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2017-11-17T20:56:06.266Z-->Nov 17, 2017, 6:56 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2017-11-17T20:56:06.281Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>ID UOrg Destinatario&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>6614&lt;/del>&lt;ins>152430&lt;/ins>&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-02-20T14:19:23.716Z</modifiedDate>
+						<modifiedBy>
+							<id>_Uar1MArfEeOVubxNCUb3Mw</id>
+							<itemId>_Uar1MArfEeOVubxNCUb3Mw</itemId>
+							<userId>apuracao_especial</userId>
+							<name>apuracao_especial</name>
+							<label>apuracao_especial</label>
+							<emailAddress>unknown</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_Uar1MArfEeOVubxNCUb3Mw</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_Uar1MArfEeOVubxNCUb3Mw</imageUrl>
+							<webUri>https://alm.serpro/jts/users/apuracao_especial</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[59]&quot;>#59&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>&lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> Zica, bom dia.&lt;br />&lt;br />O que falta para concluirmos a homologação desta SS?&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-02-22T13:51:00.711Z</modifiedDate>
+						<modifiedBy>
+							<id>_fhL80pNwEeK64KGHgF3qkA</id>
+							<itemId>_fhL80pNwEeK64KGHgF3qkA</itemId>
+							<userId>00937325465</userId>
+							<name>Walter de Carvalho Mattos Galvao</name>
+							<label>Walter de Carvalho Mattos Galvao</label>
+							<emailAddress>walter.galvao@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_fhL80pNwEeK64KGHgF3qkA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_fhL80pNwEeK64KGHgF3qkA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/00937325465</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tamanho Previsto (PF) - Roteiro Cliente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>&amp;lt;Unassigned&amp;gt;&lt;/del>&lt;ins>18&lt;/ins>&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Tamanho Realizado (PF) - Roteiro Cliente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;del>&amp;lt;Unassigned&amp;gt;&lt;/del>&lt;ins>18&lt;/ins>&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Atendimento sem Projeto&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>false&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;true&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Roteiro Cliente&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Não designado&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;INCRA&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-02-22T14:09:17.007Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[60]&quot;>#60&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Zica &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/98467360100&quot;>@98467360100&lt;/a> boa tarde.&lt;br />&lt;br />Olha o breve histórico que levantamos com Jonas, desta &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/972777&quot;>SS 972777&lt;/a>:&lt;br />- Temos que essa SS foi implantada pela equipe de Bruno em 2016;&lt;br />- mas o TCU nunca homologou&lt;br />- a URC pediu pra tirar de produção&lt;br />- tiramos de produção, aí depois pediram uma extração&lt;br />&lt;b>- &lt;/b>mandamos a extração ano passado, 2017&lt;br />&lt;br />Assim Zica, quais próximos passos que devemos dar, com vistas a uma Conclusão?&lt;br />att&lt;br />cc Jonas &lt;a href=&quot;https://alm.serpro/ccm/resource/itemName/com.ibm.team.repository.Contributor/01057946435&quot;>@01057946435&lt;/a> &lt;br /> &lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-03-19T19:06:33.688Z</modifiedDate>
+						<modifiedBy>
+							<id>_MIUkIGnCEeKaxLyewP5LAA</id>
+							<itemId>_MIUkIGnCEeKaxLyewP5LAA</itemId>
+							<userId>10227580478</userId>
+							<name>Maurus Otavio Fonseca Santos</name>
+							<label>Maurus Otavio Fonseca Santos</label>
+							<emailAddress>maurus-otavio.santos@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_MIUkIGnCEeKaxLyewP5LAA</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_MIUkIGnCEeKaxLyewP5LAA</imageUrl>
+							<webUri>https://alm.serpro/jts/users/10227580478</webUri>
+						</modifiedBy>
+					</changes>
+					<changes>
+						<content>&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Status&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>Em Homologação&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Suspensa [Em Homologação]&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Resolução&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&amp;lt;none&amp;gt;&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;URC/CLI – Pendência quanto à homologação&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Comentários [&lt;a href=&quot;https://alm.serpro/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_NT2a1TS6Eea_Lr1pNCboRg?path=internalComments[61]&quot;>#61&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Em homologação há 3 meses sem retorno do cliente. Demanda suspensa. Não podemos concluir esta SS enquanto o cliente não se posicionar.&lt;/td>&lt;/tr>&lt;tr>&lt;td>Assinado por&amp;nbsp;&lt;/td>&lt;td>Removed:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Aline Goncalves Cabeceira&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Thiago Petri Duarte&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;HistoryColumn0&quot;>Data de Mudança do Estado&amp;nbsp;&lt;/td>&lt;td class=&quot;HistoryColumn1&quot;>&lt;!--EmbeddedDateStart_2017-11-17T20:56:06.266Z-->Nov 17, 2017, 6:56 PM&lt;!--EmbeddedDateEnd-->&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;&lt;!--EmbeddedDateStart_2018-04-04T20:04:39.199Z-->Apr 4, 2018, 5:04 PM&lt;!--EmbeddedDateEnd-->&lt;/td>&lt;/tr>&lt;/table></content>
+						<isHTML>true</isHTML>
+						<modifiedDate>2018-04-04T20:04:39.230Z</modifiedDate>
+						<modifiedBy>
+							<id>_3cZ4hc1HEeK6vquQQMSx4Q</id>
+							<itemId>_3cZ4hc1HEeK6vquQQMSx4Q</itemId>
+							<userId>98467360100</userId>
+							<name>Sergio Henrique Cunha Zica</name>
+							<label>Sergio Henrique Cunha Zica</label>
+							<emailAddress>sergio.zica@serpro.gov.br</emailAddress>
+							<locationUri>https://alm.serpro/ccm/resource/itemOid/com.ibm.team.repository.Contributor/_3cZ4hc1HEeK6vquQQMSx4Q</locationUri>
+							<imageUrl>/ccm/service/com.ibm.team.rtc.common.service.IMemberPhotoService?itemId=_3cZ4hc1HEeK6vquQQMSx4Q</imageUrl>
+							<webUri>https://alm.serpro/jts/users/98467360100</webUri>
+						</modifiedBy>
+					</changes>
+				</value>
+			</returnValue>
+		</response>
+	</soapenv:Body>
+</soapenv:Envelope>
